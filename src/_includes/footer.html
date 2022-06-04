@@ -1,12 +1,12 @@
-<script src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/calendar.js" | relative_url }}"></script>
 <footer class="site-footer h-card">
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  
+
     <div class="wrapper">
       {%- assign page_list = site.data.navigation.footer | default: [] -%}
-  
+
       <h2 class="footer-heading">{{ site.title | escape }}</h2>
-  
+
       <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
           <ul class="contact-list">
@@ -22,11 +22,11 @@
               {%- endif -%}
           </ul>
         </div>
-  
+
         <div class="footer-col footer-col-2">
           {%- include social.html -%}
         </div>
-  
+
         <div class="footer-col footer-col-3">
             <ul>
             {%- for path in page_list -%}
@@ -38,7 +38,7 @@
             </ul>
         </div>
       </div>
-  
+
     </div>
-  
+
   </footer>

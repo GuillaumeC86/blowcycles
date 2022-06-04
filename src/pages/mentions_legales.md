@@ -5,4 +5,3 @@ permalink: /pages/mentions_legales
 ---
 
 # Mentions légales
-

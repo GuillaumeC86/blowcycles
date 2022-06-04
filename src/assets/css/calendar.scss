@@ -1,216 +1,262 @@
 ---
 ---
 
-// color blind colors
-// https://davidmathlogic.com/colorblind/#%23000000-%23E69F00-%2356B4E9-%23009E73-%23F0E442-%230072B2-%23D55E00-%23CC79A7
-$c1: #000000;
-$c2: #E69F00;
-$c3: #56B4E9;
-$c4: #009E73;
-$c5: #F0E442;
-$c6: #0072B2;
-$c7: #D55E00;
-$c8: #CC79A7;
+/*
+.cal-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #153365;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
+.calendar {
+    width: 47rem;
+    height: 55rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #041837;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+  }
 
-$arrow-color: #5c6bc0;
-$day-selected-text-color: #fff;
-$day-selected-background-color: #5c6bc0;
-$day-disabled-background-color: none;
-$cal-background-color: #212121;
-$cal-container-background-color: #757575;
-$cal-separator-color: #757575;
-$cal-text-color: #fff;
+  .month {
+    width: 100%;
+    height: 12rem;
+    background-color: #4a0ba6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
 
-// * {
-//   box-sizing: border-box;
-//   font-family: 'Montserrat', sans-serif;;
-//   font-weight: 500;
-// }
+  .month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
 
-// body {
-//   padding: 0;
-//   margin: 0;
-// }
+  .month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
 
-.cal-modal-container {
-  background: $cal-container-background-color;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 650px;
+  .month p {
+    font-size: 1.6rem;
+  }
+
+  .weekdays {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.4rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+  }
+
+  .days div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.4rem / 7);
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+  }
+
+  .days div:hover:not(.today) {
+    border: 0.2rem solid #777;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .prev-date,
+  .next-date {
+    opacity: 0.5;
+  }
+
+  .today {
+    background-color: #4e0ba6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  } */
+
+// Colors used
+:root {
+  --teal-050: #effcf6;
+  --teal-100: #c6f7e2;
+  --teal-200: #8eedc7;
+  --teal-300: #65d6ad;
+  --teal-400: #3ebd93;
+  --teal-500: #27ab83;
+  --teal-600: #199473;
+  --teal-700: #147d64;
+  --teal-800: #0c6b58;
+  --teal-900: #014d40;
+
+  --blue-grey-050: #f0f4f8;
+  --blue-grey-100: #d9e2ec;
+  --blue-grey-200: #bcccdc;
+  --blue-grey-300: #9fb3c8;
+  --blue-grey-400: #829ab1;
+  --blue-grey-500: #627d98;
+  --blue-grey-600: #486581;
+  --blue-grey-700: #334e68;
+  --blue-grey-800: #243b53;
+  --blue-grey-900: #102a43;
+
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
 }
 
-.cal-modal {
-  background: $cal-background-color;
-  color: $cal-text-color;
-  padding: 40px 60px;
+.calendar {
+  // font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 125%;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--blue-grey-900);
+}
+
+.calendar {
+  max-width: max-content;
+  min-width: 250px;
+  margin: 3em auto 0 auto;
+  padding: 1.5em;
+  background-color: #fff;
+  border: 2px solid var(--blue-grey-200);
+  border-radius: 8px;
+}
+
+// For the month
+.cal-header {
+  color: var(--blue-grey-700);
   text-align: center;
-  min-height: 445px;
-  
-  h3 {
-    font-size: 37px;
-    font-weight: 900;
-    margin: 0 0 1rem;
-  }
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#calendar {
-  display: inline-block;
-  
-  .placeholder {
-    display: none;
-    width: 300px;
-  }
-  
-  .flatpickr-calendar {
-    background: none;
-    border: 0;
-    border-radius: 0;;
-    box-shadow: none;
-    color: $cal-text-color;
-    top: 0;
-    
-    .flatpickr-innerContainer {
-      overflow: visible;
-      
-      .flatpickr-weekdays {
-        overflow: visible;
-      }
-    }
+.cal-header i {
+  cursor: pointer;
+}
 
-    .flatpickr-months {
-      .flatpickr-month {
-        color: inherit;
-        margin-bottom: 10px;
+// CSS grid used for the dates
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
 
-        .flatpickr-current-month {
-          font-size: 16px;
+// Styles for the weekday/weekend header
+.day-of-week {
+  margin-top: 1.25em;
+}
 
-          .numInputWrapper {
-            display: none;
-          }
-        }
-      }
-      
-      .flatpickr-prev-month, .flatpickr-next-month {
-        top: calc(50% - 23px);
-        
-        svg {
-          height: 46px;
-          width: 46px;
-          
-          path {
-            fill: $arrow-color;
-          }
-        }
-      }
-      
-      .flatpickr-prev-month {
-        left: -60px;
-      }
-      
-      .flatpickr-next-month {
-        right: -60px;
-      }
-    }
+.day-of-week > * {
+  font-size: 0.7em;
+  color: var(--blue-grey-400);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  // font-variant: small-caps;
+  text-align: center;
+}
 
-    .flatpickr-weekdays {
-      .flatpickr-weekdaycontainer {
-        max-width: 307.875px;
-        padding: 0 10px;
-        position: relative;
-        
-        &::after {
-          content: '';
-          background: $cal-separator-color;
-          position: absolute;
-          top: -32px;
-          bottom: -230px;
-          right: 0;
-          width: 1px;
-        }
-        
-        &:last-child::after {
-          content: none;
-        }
-        
-        .flatpickr-weekday {
-          color: $cal-text-color;
-          font-weight: 700;
-        }
-      }
-    }
+/* Dates */
+.date-grid {
+  margin-top: 0.5em;
+}
 
-    .dayContainer {
-      box-shadow: none;
-      padding: 0 10px;
-      position: static;
-      
-      &:last-child::after {
-        content: none;
-      }
-    }
+/* Positioning the first day */
+/* Done in javascript to update the value for each month */
+// .date-grid .day:first-child {
+//   grid-column: 6;
+// }
 
-    .flatpickr-day {
-      background: $day-selected-background-color;
-      border: 0;
-      color: $day-selected-text-color;
-      font-weight: 500;
-      transition: color .1s, background .1s;
+// Style for each day of event
+.date-grid .day {
+  box-shadow: rgb(69, 165, 151) 0px -4px 0px 0px inset;
+}
 
-      &:hover {
-        background: $day-selected-background-color;
-        color: $day-selected-text-color;
-      }
+// Style for each day content
+.date-grid button {
+  position: relative;
+  border: 0;
+  width: 4.5ch;
+  height: 4.5ch;
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--blue-grey-600);
+}
 
-      &.flatpickr-disabled, &.flatpickr-disabled:hover {
-        background: $day-disabled-background-color;
-        color: $cal-text-color;
-        cursor: default;
-      }
+.date-grid button:hover,
+.date-grid button:focus {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--blue-grey-700);
+}
 
-      &.selected:not(.hidden) {
-        &, &:hover, &:focus {
-          background: $day-selected-background-color;
-          color: $day-selected-text-color;
-        }
-      }
-      
-      &.nextMonthDay, &.prevMonthDay {
-        background: none;
-        color: rgba(#CFD2D3, .1) !important;
-        cursor: default;
-        visibility: visible; 
-      }
-    }
-  }
-  
-  .calendar-events {
-    display: block;
-    justify-content: space-around;
-    margin-top: 30px;
-    min-height: 36px;
-    
-    @media screen and (min-width: 992px) {
-      display: flex;
-      justify-content: space-around;
-    }
-      
-    .event {
-      font-size: 29px;
-      
-      .date {
-        color: $cal-text-color;
-        font-weight: 600;
-      }
-      
-      .location {
-        color: $day-selected-background-color;
-        font-weight: 800;
-        letter-spacing: -.8px;
-      }
-    }
-  }
+.date-grid button:active,
+.date-grid button.is-selected {
+  background-color: var(--teal-100);
+  color: var(--teal-900);
 }

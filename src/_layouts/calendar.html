@@ -4,13 +4,21 @@ layout: default
 
 {{ content }}
 
-<div class="cal-modal-container">
-    <div class="cal-modal">
-      <h3>ÉVÈNEMENTS À VENIR</h3>
-      <div id="calendar">
-        <div class="placeholder"></div>
-        <div class="calendar-events">
-        </div>
-      </div>
-    </div>
+<div class="calendar">
+  <div class="cal-header">
+    <i class="fas fa-angle-left prev"></i>
+    <div class="month-indicator"></div>
+    <i class="fas fa-angle-right next"></i>
   </div>
+  <div class="day-of-week">
+    <div>Lun</div>
+    <div>Mar</div>
+    <div>Mer</div>
+    <div>Jeu</div>
+    <div>Ven</div>
+    <div>Sam</div>
+    <div>Dim</div>
+  </div>
+
+  <div class="date-grid"></div>
+</div>
