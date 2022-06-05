@@ -5,29 +5,25 @@
     <div class="wrapper">
       {%- assign page_list = site.data.navigation.footer | default: [] -%}
 
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
       <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <li class="p-name">
-              {%- if site.author -%}
-                {{ site.author | escape }}
-              {%- else -%}
-                {{ site.title | escape }}
-              {%- endif -%}
-              </li>
-              {%- if site.email -%}
-              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-              {%- endif -%}
-          </ul>
+        <div class="footer-col">
+          <img
+            src="/assets/images/logo_bc.svg"
+            alt="Blow Cycles mini logo"
+            width="64"
+          />
+        </div>
+        <div class="footer-col">
+            <small
+              >&copy; 2022 Blow Cycles</small
+            >
         </div>
 
-        <div class="footer-col footer-col-2">
+        <div class="footer-col">
           {%- include social.html -%}
         </div>
 
-        <div class="footer-col footer-col-3">
+        <div class="footer-col">
             <ul>
             {%- for path in page_list -%}
               {%- assign my_page = site.pages | where: "url", path | first -%}

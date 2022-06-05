@@ -24,13 +24,12 @@ const renderCalendar = ({ selectedDate, today, maxDate }) => {
     "Septembre",
     "Octobre",
     "Novembre",
-    "Décembre",
+    "Décembre"
   ];
 
   document.querySelector(".month-indicator").innerHTML = `${
     months[date.getMonth()]
   } ${date.getFullYear()}`;
-
 
   dateGridHtmlContent = "";
 
@@ -63,7 +62,6 @@ const renderCalendar = ({ selectedDate, today, maxDate }) => {
   }
 
   dateGrid.innerHTML = dateGridHtmlContent;
-
 };
 
 const main = () => {
@@ -71,15 +69,15 @@ const main = () => {
 
   document.querySelector(".prev").addEventListener("click", () => {
     selectedDate.setMonth(selectedDate.getMonth() - 1);
-    renderCalendar(selectedDate);
+    renderCalendar({ selectedDate });
   });
 
   document.querySelector(".next").addEventListener("click", () => {
     selectedDate.setMonth(selectedDate.getMonth() + 1);
-    renderCalendar(selectedDate);
+    renderCalendar({ selectedDate });
   });
 
-  renderCalendar(selectedDate);
+  renderCalendar({ selectedDate });
 };
 
 main();
