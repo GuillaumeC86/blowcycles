@@ -4,11 +4,12 @@ title: Tarifs et Ouverture
 permalink: /pages/tarifs_et_ouverture
 ---
 
-Tarifs (Location casque incluse) :
+Tarifs* (Location casque incluse) :
+- **4 heures :** 39 €
+- **1 journée :** 59 €
 
-- 4h : 39 €
-- 1j : 59 €
+*Hors promotions et événements spéciaux
 
-Ouverture : Lundi Mercredi Vendredi Samedi Dimanche + Jours fériés
-9h-18h Janvier, Février, Mars, Avril, Mai, Octobre, Novembre, Décembre
-9h-19h Juin, Juillet, Août, Septembre
+Ouverture : Lundi - Mercredi - Vendredi - Samedi - Dimanche + Jours fériés
+- **De 9h à 18h** d'Octobre à Mai
+- **De 9h à 19h** de Juin à Septembre
