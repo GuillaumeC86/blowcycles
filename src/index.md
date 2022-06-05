@@ -2,17 +2,14 @@
 layout: page
 ---
 
-# Redécouvrez le domaine forestier de Fontainebleau
+# Redécouvrez Fontainebleau
 
-Blow Cycles est né d'une idée simple : parcourir la forêt de Fontainebleau en vélo doit être accessible à tous. Il fallait donc apporter au domaine forestier la possibilité de louer des VTT à assistance électrique confortables et endurants.
-Et comme nous avons à cœur de promouvoir les mobilités durables, nous avons contacté la SNCF afin de vous offrir ce service dès la descente du train en gare de Fontainebleau-Avon.
+Parcourir la forêt de Fontainebleau en vélo doit être accessible au plus grand nombre, et non une élite sportive. C'est pour cette raison que nous vous apportons donc la possibilité de **louer des VTT à assistance électrique confortables et adaptés au massif forestier.**<br/>Et comme nous avons à coeur de promouvoir les mobilités durables, nous avons contacté la SNCF afin de **vous proposer ce service dès la descente du train en gare de Fontainebleau-Avon**.
 
-Vous mesurez au moins 1 m 45[^1] ? Vous savez faire du vélo ? Vous avez déjà toutes les capacités requises pour nous louer un ou plusieurs de nos VTT à assistance électrique.
+Vous mesurez au moins 1 m 45[^1] ? Vous savez faire du vélo ? Vous avez déjà toutes les capacités requises pour nous louer nos VTT à assistance électrique. Venez donc découvrir, ou redécouvrir, le poumon vert bellifontain situé à 45 km au sud de Paris.
 
-En plus de nos cycles, nous vous fournissons une carte sur laquelle les points d'intérêts de la forêt sont matérialisés, ainsi que les sentiers -classés par difficulté- pour vous y rendre via votre propre itinéraire.
+# Exploration à la carte
 
-Et si vous ne savez pas où aller, on vous conseille et on vous fourni même un parcours préétabli qui prend en compte votre niveau, le temps que vous souhaitez consacrer à votre promenade ainsi que vos désirs d'explorations. Nous pouvons vous orienter vers les zones touristiques les plus fréquentées, mais aussi vers les secteurs moins connus du grand public afin de vous offrir un bol d'air loin de la foule.
+En plus de nos cycles, nous fournissons une carte de la forêt de Fontainebleau sur laquelle les points d'intérêts de la forêt sont matérialisés, ainsi que les sentiers -classés par difficulté- pour vous y rendre via vos propres itinéraires.<br/>Et si vous ne savez pas où aller, nous pouvons vous conseiller en fonction de votre niveau ainsi que du temps que vous souhaitez consacrer à votre exploration. Zones touristique fréquentée, ou secteur moins connu du grand public ? Vous saurez dans quelle partie de la forêt vous rendre selon vos souhaits.
 
-Maintenant que vous avez de quoi parcourir la forêt sans vous fatiguer, à vous de pédaler tranquillement et d'en profiter.
-
-[^1]: Nos vélos les plus petits sont adaptés aux ados mesurant 1m45. Comme l'assistance peut impressionner les plus frileuses et les plus frileux, on recommande un âge minimum de 13-14 ans afin d'être à l'aise. Pour des raisons de sécurité, nous ne fournissons pas de remorque ni de siège bébé/enfants, et n'autorisons pas leur usage sur nos vélos.
+[^1]: Nos vélos les plus petits (Maa Pure Piko) sont adaptés aux ados ou adultes mesurant entre 1m45 et 1m60. Comme l'assistance peut impressionner les plus frileuses et les plus frileux, on recommande un âge minimum de 13-14 ans afin d'être à l'aise. Pour des raisons de sécurité, nous ne fournissons pas de remorque ni de siège bébé/enfants, et n'autorisons pas leur usage sur nos vélos.
