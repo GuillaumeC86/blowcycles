@@ -14,3 +14,5 @@ Destinés aux adultes, et équipés d'une selle ultra-confort de la marque Royal
 ## Maa Pure Piko
 
 Destiné aux ados, mais pouvant être également utilisé par des adultes, ce mini format de VTT Fat Bike dispose lui aussi d'une selle Royal, et d'un petit panier pour transporter des charges légères au niveau du guidon. Mais ne vous fiez pas à sa petite taille, il est aussi performant que les vélos de grande taille.
+
+**Nous vendons également l'intégralité de la gamme Maa, sur stock ou sur commande. Venez nous consulter en boutique pour plus d'informations.**
