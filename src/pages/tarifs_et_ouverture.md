@@ -4,7 +4,7 @@ title: Tarifs et Ouverture
 permalink: /pages/tarifs_et_ouverture
 ---
 
-Tarifs* (Location casque incluse) :
+Tarifs* (Casques et carte inclus) :
 - **4 heures :** 39 €
 - **1 journée :** 59 €
 
