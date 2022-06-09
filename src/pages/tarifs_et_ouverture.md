@@ -10,6 +10,8 @@ Tarifs* (Location casque incluse) :
 
 *Hors promotions et événements spéciaux
 
+**Attention :** Pour toute location, une emprunte bancaire de caution de 250 € par vélo est réalisée (celle-ci est restituée au retour des vélos en état conforme). Le nom sur la carte bancaire utilisée pour la caution doit correspondre au nom de la carte d'identité laissée par la personne physique se portant garante.
+
 Ouverture : Lundi - Mercredi - Vendredi - Samedi - Dimanche + Jours fériés
 - **De 9h à 18h** d'Octobre à Mai
 - **De 9h à 19h** de Juin à Septembre
