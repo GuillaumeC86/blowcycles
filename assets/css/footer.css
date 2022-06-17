@@ -1,0 +1,24 @@
+.footer-col,
+.footer-col-wrapper {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+.footer-col-wrapper {
+  display: grid;
+  grid-template-columns: 79px 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center; }
+
+@media only screen and (max-width: 600px) {
+  .footer-col-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 1.5em; }
+
+  .footer-col {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }

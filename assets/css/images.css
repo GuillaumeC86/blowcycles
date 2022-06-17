@@ -1,0 +1,36 @@
+.image-grid,
+.text-and-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.5625fr;
+  column-gap: 1rem;
+  align-items: center;
+  margin: 1rem; }
+
+.text-and-image-grid {
+  grid-template-columns: 0.3fr 1fr; }
+
+.image-grid img,
+.text-and-image-grid img {
+  width: 100%; }
+
+.image-center,
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.image-width {
+  width: 70%; }
+
+@media only screen and (max-width: 600px) {
+  .image-width {
+    width: 100%; }
+
+  .image-grid,
+  .text-and-image-grid {
+    grid-template-columns: 1fr;
+    row-gap: 1rem; }
+
+  .image-grid img,
+  .text-and-image-grid img {
+    width: 80%; } }

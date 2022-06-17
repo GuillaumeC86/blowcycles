@@ -1,0 +1,116 @@
+:root {
+  --teal-050: #effcf6;
+  --teal-100: #c6f7e2;
+  --teal-200: #8eedc7;
+  --teal-300: #65d6ad;
+  --teal-400: #3ebd93;
+  --teal-500: #27ab83;
+  --teal-600: #199473;
+  --teal-700: #147d64;
+  --teal-800: #0c6b58;
+  --teal-900: #014d40;
+  --blue-grey-050: #f0f4f8;
+  --blue-grey-100: #d9e2ec;
+  --blue-grey-200: #bcccdc;
+  --blue-grey-300: #9fb3c8;
+  --blue-grey-400: #829ab1;
+  --blue-grey-500: #627d98;
+  --blue-grey-600: #486581;
+  --blue-grey-700: #334e68;
+  --blue-grey-800: #243b53;
+  --blue-grey-900: #102a43;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40; }
+
+.calendar {
+  font-size: 125%;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--blue-grey-900); }
+
+.calendar {
+  max-width: max-content;
+  min-width: 250px;
+  margin: 3em auto 0 auto;
+  padding: 1.5em;
+  background-color: #fff;
+  border: 2px solid var(--blue-grey-200);
+  border-radius: 8px; }
+
+.cal-header {
+  color: var(--blue-grey-700);
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.cal-header i {
+  cursor: pointer; }
+
+.cal-header i.hidden {
+  cursor: default;
+  visibility: hidden; }
+
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); }
+
+.day-of-week {
+  margin-top: 1.25em; }
+
+.day-of-week > * {
+  font-size: 0.7em;
+  color: var(--blue-grey-400);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-align: center; }
+
+/* Dates */
+.date-grid {
+  margin-top: 0.5em; }
+
+/* Positioning the first day */
+/* Done in javascript to update the value for each month */
+.date-grid .day.open {
+  box-shadow: #45a597 0px -4px 0px 0px inset; }
+
+.date-grid button {
+  position: relative;
+  border: 0;
+  width: 4.5ch;
+  height: 4.5ch;
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--blue-grey-600); }
+
+.date-grid button:hover,
+.date-grid button:focus {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--blue-grey-700); }
+
+.date-grid button:active,
+.date-grid button.is-selected {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--blue-grey-700); }
