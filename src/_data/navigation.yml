@@ -1,0 +1,9 @@
+# pages listed in the navbar
+navbar:
+  - /pages/nos_velos
+  - /pages/nous_trouver
+  - /pages/reservations
+  - /pages/tarifs_et_ouverture
+footer:
+  - /pages/contact
+  - /pages/mentions_legales
