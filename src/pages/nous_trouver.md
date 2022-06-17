@@ -4,7 +4,10 @@ title: Nous Trouver
 permalink: /pages/nous_trouver
 ---
 
-**Blow Cycles**<br/>Gare de Fontainebleau-Avon<br/>Place de la Gare<br/>77210 Avon
+  <div class="text-and-image-grid">
+    <p class='center'><strong>Blow Cycles</strong><br>Gare de Fontainebleau-Avon<br>Place de la Gare<br>77210 Avon</p>
+  <img src="/assets/images/nous_trouver/plan_gare.jpg" alt="plan_gare" class='image-center'/>
+  </div>
 
 Notre boutique se trouve à l'intérieur même de la gare de Fontainebleau-Avon, sur la droite depuis l'entrée du hall central.
 

@@ -1,7 +1,8 @@
 ---
 ---
 
-.image-grid {
+.image-grid,
+.text-and-image-grid {
   display: grid;
   grid-template-columns: 1fr 0.5625fr; // keep the ratio between images 1080 px/1920 px = 0.5625
   column-gap: 1rem;
@@ -9,11 +10,17 @@
   margin: 1rem;
 }
 
-.image-grid img {
+.text-and-image-grid {
+  grid-template-columns: 0.3fr 1fr;
+}
+
+.image-grid img,
+.text-and-image-grid img {
   width: 100%;
 }
 
-.image-center {
+.image-center,
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -29,13 +36,13 @@
     width: 100%;
   }
 
-  .image-grid {
-    display: grid;
+  .image-grid,
+  .text-and-image-grid {
     grid-template-columns: 1fr;
     row-gap: 1rem;
-    align-items: center;
   }
-  .image-grid img {
+  .image-grid img,
+  .text-and-image-grid img {
     width: 80%;
   }
 }

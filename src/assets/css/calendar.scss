@@ -80,6 +80,11 @@
   cursor: pointer;
 }
 
+.cal-header i.hidden {
+  cursor: default;
+  visibility: hidden;
+}
+
 // CSS grid used for the dates
 .day-of-week,
 .date-grid {
@@ -113,7 +118,7 @@
 // }
 
 // Style for each day of event
-.date-grid .day {
+.date-grid .day.open {
   box-shadow: rgb(69, 165, 151) 0px -4px 0px 0px inset;
 }
 
@@ -137,6 +142,6 @@
 
 .date-grid button:active,
 .date-grid button.is-selected {
-  background-color: var(--teal-100);
-  color: var(--teal-900);
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--blue-grey-700);
 }
