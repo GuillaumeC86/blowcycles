@@ -12,7 +12,7 @@ Plutôt que de vous mettre en selle sur des VTT qui vous proposent le confort d'
 Destinés aux adultes, et équipés d'une selle ultra-confort de la marque Royal, ces vélos vous emmèneront à l'autre bout de la forêt comme si vous étiez sur votre canapé (ou presque). Grâce à leur porte bagages dotés de tendeurs intégrés, vous pourrez y fixer le sac à dos de votre pique-nique afin de vous libérer les épaules. Cadre haut du Beach Cruiser ou cadre bas du Chili en fonction de votre taille.
 
 
-<img src="/assets/images/nos_velos/velos_1.jpg" alt="velos_1" width="70%" class="center" style="height: 300px; object-fit: cover;"/>
+<img src="/assets/images/nos_velos/velos_1.jpg" alt="velos_1" width="70%" class="image-center image-width" style="height: 300px; object-fit: cover;"/>
 
   <!-- object-position: 0px 0px; -->
 
@@ -21,6 +21,6 @@ Destinés aux adultes, et équipés d'une selle ultra-confort de la marque Royal
 
 Destiné aux ados, mais pouvant être également utilisé par des adultes, ce mini format de VTT Fat Bike dispose lui aussi d'une selle Royal, et d'un petit panier pour transporter des charges légères au niveau du guidon. Mais ne vous fiez pas à sa petite taille, il est aussi performant que les vélos de grande taille.
 
-<img src="/assets/images/nos_velos/velos_3.jpg" alt="velos_3" width="70%" class="center" style="height: 300px; object-fit: cover;"/>
+<img src="/assets/images/nos_velos/velos_3.jpg" alt="velos_3" width="70%" class="image-center image-width" style="height: 300px; object-fit: cover;"/>
 
 **Nous vendons également l'intégralité de la gamme Maa, sur stock ou sur commande. Venez nous consulter en boutique pour plus d'informations.**
