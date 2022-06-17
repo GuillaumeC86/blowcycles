@@ -11,11 +11,9 @@ Plutôt que de vous mettre en selle sur des VTT qui vous proposent le confort d'
 
 Destinés aux adultes, et équipés d'une selle ultra-confort de la marque Royal, ces vélos vous emmèneront à l'autre bout de la forêt comme si vous étiez sur votre canapé (ou presque). Grâce à leur porte bagages dotés de tendeurs intégrés, vous pourrez y fixer le sac à dos de votre pique-nique afin de vous libérer les épaules. Cadre haut du Beach Cruiser ou cadre bas du Chili en fonction de votre taille.
 
-
 <img src="/assets/images/nos_velos/velos_1.jpg" alt="velos_1" width="70%" class="image-center image-width" style="height: 300px; object-fit: cover;"/>
 
   <!-- object-position: 0px 0px; -->
-
 
 ## Maa Pure Piko
 

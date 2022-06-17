@@ -12,7 +12,6 @@ Nos vélos peuvent être réservés par téléphone (à nos horaires d'ouverture
 
 <img src="/assets/images/reservation/reservation_1.jpg" alt="reservation_1" class="image-center image-width"/>
 
-
 **Pour les professionnels**
 
 Vous représentez une entreprise, ou une collectivité, et souhaitez mettre en place une activité de groupe pour vos employés, clients ou membres ? Contactez-nous par mail afin que nous puissions élaborer un devis adapté à vos besoins.
