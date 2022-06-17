@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Jekyll site CIjekpages
 
 on:
   push:
@@ -18,3 +18,10 @@ jobs:
         docker run \
         -v ${{ github.workspace }}/src:/srv/jekyll -v ${{ github.workspace }}/src/_site:/srv/jekyll/_site \
         jekyll/jekyll:3.8 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+    - name: "Deploy Github Pages"
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: src/_site/
