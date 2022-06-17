@@ -1,0 +1,15 @@
+---
+---
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  min-width: 300px;
+}

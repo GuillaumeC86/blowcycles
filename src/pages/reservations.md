@@ -10,6 +10,9 @@ Nos vélos peuvent être réservés par téléphone (à nos horaires d'ouverture
 - Aucun paiment n'est demandé, la réservation est gratuite.
 - Les vélos ne vous seront mis de côté que jusqu'à 10h30. Après cet horaire, ils seront de nouveau disponibles pour d'autres clients si vous ne vous êtes pas présentés.
 
+<img src="/assets/images/reservation/reservation_1.jpg" alt="reservation_1" width="70%" class="center"/>
+
+
 **Pour les professionnels**
 
 Vous représentez une entreprise, ou une collectivité, et souhaitez mettre en place une activité de groupe pour vos employés, clients ou membres ? Contactez-nous par mail afin que nous puissions élaborer un devis adapté à vos besoins.
