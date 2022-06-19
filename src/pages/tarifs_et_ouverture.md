@@ -4,12 +4,7 @@ title: Tarifs et Ouverture
 permalink: /pages/tarifs_et_ouverture
 ---
 
-Tarifs\* (Casques et carte inclus) :
-
-- **4 heures :** 39 €
-- **1 journée :** 59 €
-
-\*Hors promotions et événements spéciaux
+<img src="/assets/images/tarifs/tarifs.png" width="100%" alt="Tarifs : 39 € demi-journée - 59 € journée - Promotions en magasin ou sur les réseaux sociaux" class="image-center"/>
 
 **Attention :**
 
