@@ -5,7 +5,7 @@ long_title: "Nos vélos : confort et autonomie"
 permalink: /pages/nos_velos
 ---
 
-Afin de vous une exploration agréable et accessible, nous avons opté pour des modèles fat bikes confortables. Grâce à leurs larges pneus, ils restent stables sur tous les types de sol (sable, terre, graviers, etc.), et gardent un maximum de motricité grâce à l'assistance électrique.<br/>.
+Afin de vous une exploration agréable et accessible, nous avons opté pour des modèles fat bikes confortables venus du sud-ouest de la France. Grâce à leurs larges pneus, ils restent stables sur tous les types de sol (sable, terre, graviers, etc.), et gardent un maximum de motricité grâce à l'assistance électrique.
 
 ## Maa Pure Beach Cruiser / Pure Chili
 
