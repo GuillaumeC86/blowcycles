@@ -21,4 +21,4 @@ Destiné aux ados (à partir de 1m40/45), mais pouvant être également utilisé
 
 <img src="/assets/images/nos_velos/velos_3.jpg" alt="velos_3" width="70%" class="image-center image-width" style="height: 300px; object-fit: cover;"/>
 
-**Nous vendons également l'intégralité de la gamme Maa, sur stock ou sur commande. N'hésitez pas à nous consulter en boutique, par mail ou téléphone pour plus d'informations.**
+**Nous vendons également l'intégralité de la gamme Maa, sur stock ou sur commande. <br/>N'hésitez pas à nous consulter en boutique, par mail ou téléphone pour plus d'informations.**
