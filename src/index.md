@@ -6,7 +6,7 @@ layout: page
 
 # Découvrez Fontainebleau
 
-Parcourir la forêt de Fontainebleau en vélo doit être accessible au plus grand nombre, et c'est pour ça que vous pouvez nous **louer des VTT à assistance électrique** adaptés au massif forestier dès la descente du train **en gare de Fontainebleau-Avon**.
+Parcourir la forêt de Fontainebleau en vélo doit être accessible au plus grand nombre, et c'est pour <br/>ça que vous pouvez nous **louer des VTT à assistance électrique** adaptés au massif forestier dès la descente du train **en gare de Fontainebleau-Avon**.
 
 Vous mesurez au moins 1 m 45[^1] ? Vous savez faire du vélo ? Vous avez déjà toutes les capacités requises pour nous louer un VTT ultra confortable.
 
@@ -14,7 +14,7 @@ Vous mesurez au moins 1 m 45[^1] ? Vous savez faire du vélo ? Vous avez déjà 
 
 # L'exploration à la carte
 
-Nous fournissons également **une carte de la forêt de Fontainebleau** où sont indiqués sentiers cyclables -classés par difficulté- et points d'intérêt. <br/>Vous ne savez pas où aller ? Pas de problèmes, on vous conseille sur les endroits à visiter en fonctions de vos préférences.
+Nous fournissons également **une carte de la forêt de Fontainebleau** où sont indiqués sentiers cyclables -classés par difficulté- et points d'intérêt. <br/>Vous ne savez pas où aller ? Pas de problèmes, on vous conseille sur les endroits à visiter en fonction <br/>de vos préférences.
 
 <img src="/assets/images/homepage/homepage_2.jpg" alt="homepage_2" class="image-center image-width"/>
 
