@@ -14,7 +14,7 @@ Vous mesurez au moins 1 m 40/45[^1] ? Vous savez faire du vélo ? Vous avez déj
 
 # L'exploration à la carte
 
-Nous fournissons également **une carte de la forêt de Fontainebleau** où sont indiqués sentiers cyclables -classés par difficulté- et points d'intérêt. <br/>Vous ne savez pas où aller ? Pas de problèmes, on vous conseille sur les endroits à visiter en fonction <br/>de vos préférences et du temps que vous souhaitez passer sur le vélo.
+Nous fournissons également **une carte de la forêt de Fontainebleau** où sont indiqués sentiers cyclables -classés par difficulté- et points d'intérêt (plus de 30 lieux emblématiques à découvrir). <br/>Vous ne savez pas où aller ? Pas de problèmes, on vous conseille sur les endroits à visiter en fonction <br/>de votre niveau, vos préférences et du temps que vous souhaitez passer sur nos vélos.
 
 <img src="/assets/images/homepage/homepage_2.jpg" alt="homepage_2" class="image-center image-width"/>
 
