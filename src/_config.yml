@@ -16,19 +16,37 @@
 title: Blow Cycles
 lang: fr
 email: blowcycles@gmail.com
+tagline: Location & vente de vélos à assistance électrique
 description: >- # this means to ignore newlines until "baseurl:"
-  Location & vente de vélos à assistance électrique - Fontainebleau Gare
+  Location et vente de vélos à assistance électrique en gare de Fontainebleau-Avon.
+  Vélos tout-terrains adaptés à l'exploration de la forêt de Fontainebleau, casques VTT inclus dans la location,
+  carte de la forêt avec points de vue à découvrir. Demi-journée ou journée complète.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blowcycles.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blowcycles.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+social:
+  name: Blow Cycles
+  links:
+    - https://twitter.com/blowcycles
+    - https://www.facebook.com/BlowCycles
+    - https://www.instagram.com/blowcycles
+
 instagram_username: blowcycles
 facebook_username: BlowCycles
 twitter_username: blowcycles
+
+twitter:
+  username: blowcycles
+  card: summary
+
+logo: /assets/images/logo_full.svg
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
