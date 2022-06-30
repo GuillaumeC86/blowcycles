@@ -9,7 +9,7 @@ Afin de vous garantir une exploration confortable et accessible, nous avons opt�
 
 ## Maa Pure Beach Cruiser / Pure Chili
 
-Dotés d'une selle large suspendue, ces vélos vous emmèneront à l'autre bout de la forêt comme sur <br/>un fauteuil. Sur leur porte-bagages, vous pouvez y fixer le sac à dos de votre pique-nique grâce aux tendeurs intégrés. Cadre haut du Beach Cruiser ou cadre bas du Chili selon de votre aisance.
+Dotés d'une selle large suspendue, ces vélos vous emmèneront à l'autre bout de la forêt comme sur un fauteuil. Sur leur porte-bagages, vous pouvez y fixer le sac à dos de votre pique-nique grâce aux tendeurs intégrés. Cadre haut du Beach Cruiser ou cadre bas du Chili selon de votre aisance.
 
 <img src="/assets/images/nos_velos/velos_1.jpg" alt="velos_1" width="70%" class="image-center image-width" style="height: 300px; object-fit: cover;"/>
 
