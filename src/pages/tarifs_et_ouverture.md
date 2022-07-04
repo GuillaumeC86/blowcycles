@@ -13,7 +13,9 @@ permalink: /pages/tarifs_et_ouverture
 **Ouverture :**
 
 - Lundi / Mercredi / Vendredi
-- Samedi / Dimanche / Jours fériés
+- Samedi / Dimanche / Jours fériés[^1] 
 
 - **De 9h à 18h** d'Octobre à Mai
 - **De 9h à 19h** de Juin à Septembre
+
+[^1]: Ouverture les jours fériés ensoleillés, sur réservations. L'ouverture est affichée sur notre calendrier en ligne au plus tard 3 jours avant.
