@@ -13,7 +13,7 @@ permalink: /pages/tarifs_et_ouverture
 **Ouverture :**
 
 - Lundi / Mercredi / Vendredi
-- Samedi / Dimanche / Jours fériés[^1] 
+- Samedi / Dimanche / Jours fériés[^1]
 
 - **De 9h à 18h** d'Octobre à Mai
 - **De 9h à 19h** de Juin à Septembre

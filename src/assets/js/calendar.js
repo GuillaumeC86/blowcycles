@@ -1,5 +1,14 @@
+function dateToString(selectedDate) {
+  const strYear = `${selectedDate.getFullYear()}`.padStart(4, "0");
+  const strMonth = `${selectedDate.getMonth() + 1}`.padStart(2, "0");
+  const strDay = `${selectedDate.getDate()}`.padStart(2, "0");
+
+  return `${strYear}-${strMonth}-${strDay}`;
+}
+
 class Calendar {
   constructor({ selectedDate, maxDate, today }) {
+    this.opening_days = opening_days;
     this.selectedDate = new Date(selectedDate);
     this.selectedDate.setDate(1);
     this.lastDay = new Date(
@@ -60,6 +69,20 @@ class Calendar {
     return this.maxDate.getMonth() === this.selectedDate.getMonth();
   }
 
+  isOpen(selectedDate) {
+    if ([0, 1, 3, 5, 6].includes(selectedDate.getDay())) {
+      return true;
+    }
+    console.log("opening_days", this.opening_days);
+    console.log("dateToString(selectedDate))", dateToString(selectedDate));
+
+    if (this.opening_days.includes(dateToString(selectedDate))) {
+      return true;
+    }
+
+    return false;
+  }
+
   render() {
     if (!this.dateGrid) {
       return null;
@@ -99,7 +122,7 @@ class Calendar {
         dayClass += " today";
       }
 
-      if ([0, 1, 3, 5, 6].includes(currentDate.getDay())) {
+      if (this.isOpen(currentDate)) {
         dayClass += " open";
       }
 
@@ -111,13 +134,11 @@ class Calendar {
         styleProp = `style="grid-column: ${dayOfWeek};"`;
       }
 
-      let strYear = `${currentDate.getFullYear()}`.padStart(4, "0");
-      let strMonth = `${currentDate.getMonth()}`.padStart(2, "0");
-      let strDay = `${currentDate.getDate()}`.padStart(2, "0");
+      const dateString = dateToString(currentDate);
 
       let dayHtmlContent = `<div class="${dayClass}" ${styleProp}>
           <button>
-            <time datetime="${strYear}-${strMonth}-${strDay}">${day}</time>
+            <time datetime="${dateString}">${day}</time>
           </button>
         </div>`;
 
