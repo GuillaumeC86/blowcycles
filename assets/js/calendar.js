@@ -73,8 +73,6 @@ class Calendar {
     if ([0, 1, 3, 5, 6].includes(selectedDate.getDay())) {
       return true;
     }
-    console.log("opening_days", this.opening_days);
-    console.log("dateToString(selectedDate))", dateToString(selectedDate));
 
     if (this.opening_days.includes(dateToString(selectedDate))) {
       return true;
