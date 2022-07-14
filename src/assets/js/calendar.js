@@ -9,6 +9,7 @@ function dateToString(selectedDate) {
 class Calendar {
   constructor({ selectedDate, maxDate, today }) {
     this.opening_days = opening_days;
+    this.closing_days = closing_days;
     this.selectedDate = new Date(selectedDate);
     this.selectedDate.setDate(1);
     this.lastDay = new Date(
@@ -70,11 +71,17 @@ class Calendar {
   }
 
   isOpen(selectedDate) {
+    const strDate = dateToString(selectedDate);
+
+    if (this.closing_days.includes(strDate)) {
+      return false;
+    }
+
     if ([0, 1, 3, 5, 6].includes(selectedDate.getDay())) {
       return true;
     }
 
-    if (this.opening_days.includes(dateToString(selectedDate))) {
+    if (this.opening_days.includes(strDate)) {
       return true;
     }
 
