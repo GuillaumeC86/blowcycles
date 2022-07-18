@@ -18,4 +18,4 @@ Nous fournissons également **une carte de la forêt de Fontainebleau** où sont
 
 <img src="/assets/images/homepage/homepage_2.jpg" alt="homepage_2" class="image-center"/>
 
-[^1]: Nos vélos les plus petits (Maa Pure Piko) sont adaptés aux ados ou adultes mesurant entre 1m40/45 et 1m60. L'assistance pouvant impressionner, on recommande un âge minimum de 13-14 ans afin d'être à l'aise. Pour des raisons de sécurité, nous ne fournissons pas de remorque ni de siège bébé/enfants, et n'autorisons pas leur usage sur nos vélos.
+[^1]: Nos vélos les plus petits (Maa Pure Piko) sont adaptés aux ados ou adultes mesurant entre 1m40/45 et 1m60. L'assistance pouvant impressionner, il faut avoir un âge minimum de 14 ans afin d'être à l'aise. Pour des raisons de sécurité, nous ne fournissons pas de remorque ni de siège bébé/enfants, et n'autorisons pas leur usage sur nos vélos.
