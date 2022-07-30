@@ -18,6 +18,6 @@ permalink: /pages/tarifs_et_ouverture
 - **De 9h à 18h** d'Octobre à Mai
 - **De 9h à 19h** de Juin à Septembre
 
-Attention : Fermeture exceptionnelle le lundi 18 juillet 2022.
+Attention : Nous restons fermés le dimanche et le lundi lorsque la météo est pluvieuse.
 
 [^1]: Ouverture les jours fériés ensoleillés. L'ouverture est affichée sur notre calendrier en ligne au plus tard 3 jours avant.
