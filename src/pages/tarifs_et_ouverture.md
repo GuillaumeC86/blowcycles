@@ -12,12 +12,13 @@ permalink: /pages/tarifs_et_ouverture
 
 **Ouverture :**
 
-- Lundi / Mercredi / Vendredi
-- Samedi / Dimanche / Jours fériés[^1]
+- Lundi[^1] / Mercredi / Vendredi
+- Samedi / Dimanche[^1] / Jours fériés[^2]
 
 - **De 9h à 18h** d'Octobre à Mai
 - **De 9h à 19h** de Juin à Septembre
 
 Attention : Nous restons fermés le dimanche et le lundi lorsque la météo est pluvieuse.
 
-[^1]: Ouverture les jours fériés ensoleillés. L'ouverture est affichée sur notre calendrier en ligne au plus tard 3 jours avant.
+[^1]: Fermeture en cas de journée pluvieuse. La fermeture est affichée sur notre calendrier en ligne au plus tard 48h avant.
+[^2]: Ouverture les jours fériés ensoleillés. L'ouverture est affichée sur notre calendrier en ligne au plus tard 48h avant.
