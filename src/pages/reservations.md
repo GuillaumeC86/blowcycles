@@ -14,4 +14,4 @@ Nos vélos peuvent être réservés par téléphone (à nos horaires d'ouverture
 
 **Pour les professionnels**
 
-Vous représentez une entreprise, ou une collectivité, et souhaitez mettre en place une activité de groupe pour vos employés, clients ou membres ? Contactez-nous par mail afin que nous puissions élaborer un devis adapté à vos besoins et envies (promenade guidée, course d'orientation, escape game forestier, etc.).
+Vous représentez une entreprise, ou une collectivité, et souhaitez mettre en place une activité de groupe pour vos employés, clients ou membres ? Contactez-nous par mail afin que nous puissions élaborer un devis adapté à vos besoins et envies (promenade guidée, course d'orientation, escape game, etc.).
