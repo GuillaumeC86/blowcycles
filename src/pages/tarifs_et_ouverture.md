@@ -18,7 +18,7 @@ permalink: /pages/tarifs_et_ouverture
 - **De 9h à 18h** d'Octobre à Mai
 - **De 9h à 19h** de Juin à Septembre
 
-**Attention : fermeture exeptionnelle le mercredi 16 novembre 2022**
+**Attention : fermetures exeptionnelles dimanche 18 et lundi 19 décembre, puis fermeture pour les vacances de Noël le 25 decembre. Réouverture le mercredi 4 janvier 2023.**
 
 [^1]: Fermeture en cas de journée pluvieuse. La fermeture est affichée sur notre calendrier en ligne au plus tard 48h avant.
 [^2]: Ouverture les jours fériés ensoleillés. L'ouverture est affichée sur notre calendrier en ligne au plus tard 48h avant.
