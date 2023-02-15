@@ -12,11 +12,6 @@ class Calendar {
     this.closing_days = closing_days;
     this.selectedDate = new Date(selectedDate);
     this.selectedDate.setDate(1);
-    this.lastDay = new Date(
-      this.selectedDate.getFullYear(),
-      this.selectedDate.getMonth() + 1,
-      0
-    ).getDate();
 
     this.today = today || new Date();
     this.maxDate =
@@ -60,6 +55,14 @@ class Calendar {
     }
   }
 
+  get lastDay() {
+    return new Date(
+      this.selectedDate.getFullYear(),
+      this.selectedDate.getMonth() + 1,
+      0
+    ).getDate();
+  }
+
   isFirstMonth() {
     // used to disable the previous button
     return this.today.getMonth() === this.selectedDate.getMonth();
@@ -87,6 +90,8 @@ class Calendar {
 
     return false;
   }
+
+
 
   render() {
     if (!this.dateGrid) {
