@@ -1,0 +1,19 @@
+<div class="h-64">
+    <div id="map" class="h-full"></div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+  
+  <script>
+    var map = L.map('map').setView([48.416450217349535, 2.7263004696687942], 16);
+  
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(map);
+  
+    var marker = L.marker([48.416450217349535, 2.7263004696687942]).addTo(map);
+  
+    marker.bindPopup("<b>Blow Cycles</b><br>Location de vélos").openPopup();
+  </script>
