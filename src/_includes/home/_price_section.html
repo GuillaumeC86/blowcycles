@@ -1,29 +1,27 @@
-<section class="bg-white">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+<section class="relative">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 z-10 relative">
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
         <h2
           class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900"
         >
-          Designed for business teams like yours
+        Découvrez la forêt de Fontainebleau à votre rythme avec nos vélos électriques
         </h2>
         <p
           class="mb-5 font-light text-gray-500 sm:text-xl"
         >
-          Here at Flowbite we focus on markets where technology, innovation,
-          and capital can unlock long-term value and drive economic growth.
+          Que vous cherchiez une petite balade découverte ou une aventure plus longue dans la forêt de Fontainebleau, nous sommes là pour vous accompagner.
         </p>
       </div>
       <div
         class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0"
       >
-        {% include home/_pricing_card.html %}
+        {% include home/_pricing_card.html title="Demi-Journée" description="Envie d'une petite escapade ?" price="39€" %}
         {% include home/_pricing_card.html %}
         {% include home/_pricing_card.html %}
       </div>
     </div>
-
-    <!-- <div class="absolute bottom-0 left-0 w-full">
-    <img class="" src="https://npf-prod.imgix.net/uploads/d0df4241fe0b426980b2ae0c0102e9fa.jpg?auto=compress,format&amp;crop=focalpoint&amp;fit=min&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=756&amp;q=80&amp;w=1600"/>
-    <div class="absolute bg-gradient-gray-100-fade-down h-full inset-0 top-0 w-full -mx-px"></div>
-  </div> -->
+    <div class="absolute h-full w-full bottom-0 left-0 z-0">
+      <img src="https://www.destinationsdejulie.fr/images/photos/france/foretfontainebleau/entete.jpg" alt="BannerImage"/>
+      <div class="absolute h-full w-full bottom-0 left-0" style="background-image: linear-gradient(180deg,#f9f9f9 21.88%,hsla(0,0%,97.6%,.9019607843137255) 42.71%,hsla(0,0%,97.6%,0));" ></div>
+    </div>
   </section>
