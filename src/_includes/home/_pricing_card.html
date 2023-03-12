@@ -1,105 +1,26 @@
 <!-- Pricing Card -->
+<!-- "number" is used to select the card dataset  -->
+{% assign number = include.number | default:1 | minus: 1 %}
+{% assign pricing_card = site.data.pricing_cards.pricing_cards[number] %}
 <div
-    class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow  xl:p-8"
+    class="flex flex-col p-6 mx-auto w-full max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow  xl:p-8"
 >
-    <h3 class="mb-4 text-2xl font-semibold">{{ include.title }}</h3>
+    <h3 class="mb-4 text-2xl font-semibold">{{ pricing_card.title }}</h3>
     <p class="font-light text-gray-500 sm:text-lg">
-        {{ include.description }}
+        {{ pricing_card.description }}
     </p>
     <div class="flex justify-center items-baseline my-8">
-    <span class="mr-2 text-5xl font-extrabold">{{ include.price }}</span>
+    <span class="mr-2 text-5xl font-extrabold">{{ pricing_card.price }}</span>
     </div>
     <!-- List -->
-    <ul role="list" class="mb-8 space-y-4 text-left">
-    <li class="flex items-center space-x-3">
-        <!-- Icon -->
-        <svg
-        class="flex-shrink-0 w-5 h-5 text-green-500"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        >
-        <path
-            fill-rule="evenodd"
-            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-            clip-rule="evenodd"
-        ></path>
-        </svg>
-        <span>4h de balade</span>
-    </li>
-    <li class="flex items-center space-x-3">
-        <!-- Icon -->
-        <svg
-        class="flex-shrink-0 w-5 h-5 text-green-500"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        >
-        <path
-            fill-rule="evenodd"
-            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-            clip-rule="evenodd"
-        ></path>
-        </svg>
-        <span>No setup, or hidden fees</span>
-    </li>
-    <li class="flex items-center space-x-3">
-        <!-- Icon -->
-        <svg
-        class="flex-shrink-0 w-5 h-5 text-green-500"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        >
-        <path
-            fill-rule="evenodd"
-            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-            clip-rule="evenodd"
-        ></path>
-        </svg>
-        <span
-        >Team size:
-        <span class="font-semibold">1 developer</span></span
-        >
-    </li>
-    <li class="flex items-center space-x-3">
-        <!-- Icon -->
-        <svg
-        class="flex-shrink-0 w-5 h-5 text-green-500"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        >
-        <path
-            fill-rule="evenodd"
-            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-            clip-rule="evenodd"
-        ></path>
-        </svg>
-        <span
-        >Premium support:
-        <span class="font-semibold">6 months</span></span
-        >
-    </li>
-    <li class="flex items-center space-x-3">
-        <!-- Icon -->
-        <svg
-        class="flex-shrink-0 w-5 h-5 text-green-500"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        >
-        <path
-            fill-rule="evenodd"
-            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-            clip-rule="evenodd"
-        ></path>
-        </svg>
-        <span
-        >Free updates:
-        <span class="font-semibold">6 months</span></span
-        >
-    </li>
+    <ul role="list" class="mb-8 space-y-4 text-left h-full">
+        {% for item in pricing_card.items %}
+        <li class="flex items-center space-x-3">
+            <!-- Icon -->
+            <i class="{{item.icon}}"></i>
+            <span>{{item.text}}</span>
+        </li>
+        {% endfor %}
     </ul>
     <a
     href="#"
