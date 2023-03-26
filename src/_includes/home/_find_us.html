@@ -1,5 +1,5 @@
 <!-- Find Us -->
-<section class="py-12 bg-gray-100">
+<section class="py-12 bg-white"  id="horaires_acces">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
       <h2
@@ -13,11 +13,11 @@
     </div>
     <div class="grid gap-8 lg:grid-cols-2">
       <div
-        class="p-6 bg-white rounded-lg border border-gray-200"
+        class="p-10 bg-white rounded-lg border border-gray-200"
       >
-        <h3 class="text-2xl font-semibold mb-4">Nos heures d'ouverture</h3>
+        <h3 class="text-2xl font-semibold my-4">Nos heures d'ouverture</h3>
 
-        <ul class="fa-ul mb-4">
+        <ul class="fa-ul my-4">
           <li>
             <span class="fa-li"><i class="fa-solid fa-calendar-day"></i></span>
             Lundi / Mercredi / Vendredi / Samedi / Dimanche
@@ -32,12 +32,12 @@
           </li>
         </ul>
 
-        <h3 class="text-2xl font-semibold mb-4">Cas exceptionnels</h3>
+        <h3 class="text-2xl font-semibold my-4">Cas exceptionnels</h3>
 
-        <p>
+        <p class="my-4">
           Affichage ici au plus tard 48h avant, en particulier pour :
         </p>
-        <ul class="fa-ul mb-4">
+        <ul class="fa-ul my-4">
           <li>
             <span class="fa-li"><i class="fas fa-solid fa-sun"></i></span>
             Ouverture les jours fériés ensoleillés
@@ -50,7 +50,7 @@
           </li>
         </ul>
         <div
-          class="bg-yellow-100 border-yellow-500 rounded-b text-yellow-900 px-4 py-3 mb-4"
+          class="bg-yellow-100 border-yellow-500 rounded-b text-yellow-900 px-4 py-3 my-4"
           role="alert"
         >
           <div class="flex">
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div
-          class="bg-green-100 border-green-500 rounded-b text-green-900 px-4 py-3 mb-4"
+          class="bg-green-100 border-green-500 rounded-b text-green-900 px-4 py-3 my-4"
           role="alert"
         >
           <div class="flex">
@@ -83,7 +83,7 @@
         </div>
       </div>
       <div
-        class="p-6 bg-white rounded-lg border border-gray-200"
+        class="p-10 bg-white rounded-lg border border-gray-200"
       >
         <h3 class="text-2xl font-semibold mb-4">Où nous trouver ?</h3>
         <p class="mb-4">
@@ -92,7 +92,7 @@
         <ul class="fa-ul mb-4">
           <li>
             <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>
-            Blow Cycles, Gare de Fontainebleau-Avon, Place de la Gare, 77210
+            Gare de Fontainebleau-Avon, Place de la Gare, 77210
             Avon
           </li>
           <li>
@@ -104,12 +104,8 @@
             blowcycles@gmail.com
           </li>
         </ul>
-        <div class="relative h-0" style="padding-bottom: 56.25%">
-          <iframe
-            class="absolute inset-0 w-full h-full"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=2.5445%2C48.4043%2C2.5477%2C48.4067&amp;layer=mapnik"
-            style="border: 1px solid black"
-          ></iframe>
+        <div class="w-full h-80">
+        {% include _open_street_map.html %}
         </div>
       </div>
     </div>
