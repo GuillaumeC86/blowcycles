@@ -1,14 +1,25 @@
 <!-- Navigation bar -->
-<nav class="bg-white py-4">
+<nav class="bg-white py-4 sticky top-0 z-50">
   <div class="container mx-auto flex justify-between items-center">
-    <a href="{{base_url}}/"><img src="{{base_url}}/assets/images/logos/logo_blowcycles_text.svg" alt="logo blowcycles text" class="h-10 fill-current"/></a> 
-    </a>
+    
+    {% if page.layout != 'home' %}
+      {% assign home_url = '/' | relative %}
+    {% else %}
+      {% assign home_url = '#home' %}
+    {% endif %}
+    <a href="{{ home_url }}"><img src="{{base_url}}/assets/images/logos/logo_blowcycles_text.svg" alt="logo blowcycles text" class="h-10 fill-current"/></a> 
     <div class="flex items-center">
-      <a href="#" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Nos vélos</a>
-      <a href="#" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Nous trouver</a>
-      <a href="#" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Réservations</a>
-      <a href="#" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Tarifs et Ouverture</a>
-      <a href="#" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Découvrir Fontainebleau</a>
+
+      {% for link in site.data.navigation.navigation %}
+        {% assign link_url = link.url %}
+        {% if page.layout != 'home' %}
+          {% assign link_url = base_url | append: '/' | append: link.url %}
+        {% endif %}
+  
+
+        <a href="{{ link_url }}" class="text-grey-900 hover:text-primary px-3 py-2 rounded">{{ link.text }}</a>
+
+      {% endfor %}
     </div>
   </div>
 </nav>
