@@ -6,6 +6,7 @@ permalink: /pages/tarifs_et_ouverture
 
 <img src="/assets/images/tarifs/tarifs.png" width="100%" alt="Tarifs : 39 € demi-journée - 59 € journée - 89 € deux jours - Promotions en magasin ou sur les réseaux sociaux" class="image-center"/>
 
+- Nous fournissons également des sièges bébés (6 € par jour, casque inclus) pouvant être utilisés de 9 mois à 5 ans, dans la limite de 20 kg / 1m (sièges compatibes Beach Cruiser et Chili uniquement).
 - Pour toute location, une pièce d'identité en cours de validité doit être fournie par une personne majeure se portant garante de la bonne utilisation des vélos.
 - Une caution de 250 € par emprunte bancaire est requise. Le nom sur la carte bancaire utilisée pour la caution doit correspondre au nom de la pièce d'identité.
 - Les vélos doivent être réstitués au plus tard 30 min avant la fermeture (conditions de location complètes en magasin).
