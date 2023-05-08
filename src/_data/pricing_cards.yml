@@ -33,5 +33,6 @@ pricing_cards:
         icon: fa-solid fa-check text-green-500
       - text: Forfait de recharge de batterie (10€)
         icon: fa-solid fa-plus text-yellow-500
-
+      - text: Journée supplémentaire (30€)
+        icon: fa-solid fa-plus text-yellow-500
         

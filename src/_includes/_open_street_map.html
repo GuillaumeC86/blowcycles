@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
   
   <script>
-    const latitude = 48.416450217349535;
-    const longitude = 2.7263004696687942;
+    const latitude = {{ site.data.config.gps.latitude }};
+    const longitude = {{ site.data.config.gps.longitude }};
 
     const map = L.map('map').setView([latitude, longitude], 16);
   

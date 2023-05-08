@@ -1,0 +1,13 @@
+our_bikes:
+  - name: "Maa Pure Beach Cruiser"
+    price: "3000€"
+    description: "Le Maa Pure Beach Cruiser est le choix parfait pour une balade détendue sur la plage ou à travers les sentiers de forêt. Avec une selle large et confortable qui absorbe les chocs, vous pouvez parcourir de longues distances sans ressentir la moindre fatigue. Ce vélo dispose également d'un porte-bagages pratique équipé de tendeurs pour fixer votre sac à dos et emporter tout ce dont vous avez besoin pour une journée de détente en plein air. Le cadre haut du Beach Cruiser assure une position de conduite confortable et droite, pour une expérience de conduite agréable et relaxante."
+    image: "bike1.jpg"
+  - name: "Maa Pure Pure Chili"
+    price: "3000€"
+    description: "Le Maa Pure Chili est un vélo polyvalent conçu pour les amateurs de sensations fortes. Avec un cadre bas et une géométrie sportive, ce vélo vous permet de rouler rapidement et avec agilité sur une variété de terrains. La selle suspendue offre un confort optimal, même sur les terrains les plus accidentés. Vous pouvez également transporter facilement vos affaires grâce au porte-bagages équipé de tendeurs intégrés. Que vous rouliez en ville ou à la campagne, le Maa Pure Chili est le vélo idéal pour ceux qui cherchent à allier vitesse et confort."
+    image: "bike2.jpg"
+  - name : "Maa Pure Piko"
+    price: "3000€"
+    description: "Destiné aux ados (à partir de 1m40/45), mais pouvant être également utilisé par des adultes, ce mini format de VTT Fat Bike dispose lui aussi d'une selle large, et d'un panier pour transporter des charges légères au niveau du guidon. Mais ne vous fiez pas à sa taille, il est aussi performant qu'un vélo standard."
+    image: "bike3.jpg"

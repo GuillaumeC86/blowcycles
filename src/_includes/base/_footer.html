@@ -1,33 +1,36 @@
 <footer class="bg-gray-900 text-white py-10">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 text-center">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
           <h3 class="text-xl font-bold mb-4">Blow Cycles</h3>
           <p class="mb-4">
-            Rent a bike and explore the beautiful forest of Fontainebleau.
+            Louez un vélo et venez explorer la magnifique forêt de Fontainebleau.
           </p>
-          <p>© 2023 Blow Cycles. All Rights Reserved.</p>
+          <p class="mb-4">
+            <a href="/mentions_legales" class="text-white hover:text-gray-400 underline">Mentions légales</a>
+          </p>
+          <p>© {{ "now" | date: "%Y" }} Blow Cycles. Tous droits réservés.</p>
         </div>
         <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
-          <h3 class="text-xl font-bold mb-4">Contact Us</h3>
-          <ul class="list-disc list-inside">
+          <h3 class="text-xl font-bold mb-4">Nous contacter</h3>
+          <ul class="fa-ul">
             <li>
-              <i class="fas fa-map-marker-alt"></i> 123 Main St, Fontainebleau
+              <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span> {{ site.data.config.address }}
             </li>
-            <li><i class="fas fa-phone-alt"></i> +33 6 12 34 56 78</li>
-            <li><i class="fas fa-envelope"></i> info@blowcycles.com</li>
+            <li><span class="fa-li"><i class="fas fa-phone-alt"></i></span> {{ site.data.config.phone }}</li>
+            <li><span class="fa-li"><i class="fas fa-envelope"></i></span> {{ site.data.config.email }} </li>
           </ul>
         </div>
         <div class="w-full md:w-1/3 px-4">
-          <h3 class="text-xl font-bold mb-4">Follow Us</h3>
-          <div class="flex">
-            <a href="#" class="text-white hover:text-gray-400 mr-4"
+          <h3 class="text-xl font-bold mb-4">Suivez-nous</h3>
+          <div class="flex justify-center">
+            <a href="{{ site.data.config.social.facebook }}" class="text-white hover:text-gray-400 mr-4"
               ><i class="fab fa-facebook fa-lg"></i
             ></a>
-            <a href="#" class="text-white hover:text-gray-400 mr-4"
+            <a href="{{ site.data.config.social.twitter }}" class="text-white hover:text-gray-400 mr-4"
               ><i class="fab fa-twitter fa-lg"></i
             ></a>
-            <a href="#" class="text-white hover:text-gray-400"
+            <a href="{{ site.data.config.social.instagram }}" class="text-white hover:text-gray-400"
               ><i class="fab fa-instagram fa-lg"></i
             ></a>
           </div>
