@@ -6,37 +6,29 @@ permalink: /nos_velos/
 
 
 <section class="bg-gray-100 py-12">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-4">Discover Our Bikes</h2>
-      <div class="flex flex-wrap -mx-4">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4">Louez nos vélos et vous tomberez peut-être sur un coup de coeur !</h2>
+    <p class="text-gray-700 leading-relaxed mb-6"> Chez Blow Cycles, notre passion est de faire découvrir les merveilles de la nature et de Fontainebleau à nos clients à travers des balades à vélo inoubliables.
+      Et pour que vous puissiez vivre l'expérience à fond, nous avons sélectionné plusieurs vélos haut de gamme qui s'adapteront parfaitement à vos besoin. 
+      Si vous avez un coup de cœur pour l'un de nos vélos, vous avez la possibilité de le réserver directement dans notre boutique pour continuer à explorer la nature à votre rythme.</p>
+    <div class="flex flex-wrap -mx-4">
+      {% for bike in site.data.our_bikes.our_bikes %}
         <div class="w-full md:w-1/3 px-4">
           <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img class="h-64 w-full object-cover object-center" src="bike1.jpg" alt="Bike 1">
+            <div class="relative">
+              <img class="h-64 w-full object-cover object-center" src="{{ bike.image }}" alt="{{ bike.name }}">
+              <span class="bg-green-500 text-white font-bold py-1 px-2 absolute top-0 right-0 rounded-bl-lg">{{ bike.price }}</span>
+            </div>
             <div class="p-4">
-              <h3 class="font-bold text-xl mb-2">Mountain Bike</h3>
-              <p class="text-gray-700 leading-relaxed">Our mountain bike is perfect for off-road adventures. With a lightweight frame and powerful suspension, you'll be able to tackle any terrain with ease.</p>
+              <h3 class="font-bold text-xl mb-2">{{ bike.name }}</h3>
+              <p class="text-gray-700 leading-relaxed">{{ bike.description }}</p>
+              <a href="/reservations/" class="bg-yellow-500 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Essayez-le !</a>
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/3 px-4">
-          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img class="h-64 w-full object-cover object-center" src="bike2.jpg" alt="Bike 2">
-            <div class="p-4">
-              <h3 class="font-bold text-xl mb-2">City Bike</h3>
-              <p class="text-gray-700 leading-relaxed">Our city bike is perfect for exploring the local area. With a comfortable saddle and easy-to-use gears, you'll be able to ride for hours without any discomfort.</p>
-            </div>
-          </div>
-        </div>
-        <div class="w-full md:w-1/3 px-4">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img class="h-64 w-full object-cover object-center" src="bike2.jpg" alt="Bike 2">
-              <div class="p-4">
-                <h3 class="font-bold text-xl mb-2">City Bike</h3>
-                <p class="text-gray-700 leading-relaxed">Our city bike is perfect for exploring the local area. With a comfortable saddle and easy-to-use gears, you'll be able to ride for hours without any discomfort.</p>
-              </div>
-            </div>
-        </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
-        
+
 
