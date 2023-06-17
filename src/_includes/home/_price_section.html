@@ -1,15 +1,16 @@
+{% assign pricing_cards = site.data.homepage.pricing_cards %}
 <section class="relative" id="tarifs">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 z-10 relative">
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
         <h2
           class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900"
         >
-        Découvrez la forêt de Fontainebleau à votre rythme avec nos vélos électriques
+        {{ pricing_cards.title }}
         </h2>
         <p
           class="mb-5 font-light text-gray-500 sm:text-xl"
         >
-          Que vous cherchiez une petite balade découverte ou une aventure plus longue dans la forêt de Fontainebleau, nous sommes là pour vous accompagner.
+        {{ pricing_cards.description }}
         </p>
       </div>
       <div

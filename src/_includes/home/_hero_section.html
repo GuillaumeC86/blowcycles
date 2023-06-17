@@ -1,13 +1,14 @@
 <!-- Hero section -->
 
-<section class="bg-cover bg-center pb-20 pt-56" style="background-image: url('{{base_url}}/assets/images/header.jpg')">
+{% assign hero = site.data.homepage.hero %}
+<section class="bg-cover bg-center pb-20 pt-56" style="background-image: url('{{ base_url }}{{ hero.image }}')">
     <div class="container mx-auto flex flex-wrap h-full mb">
         <div class="w-full md:w-2/3">
-            <h1 class="text-4xl font-bold text-white mb-4">Explorez la forêt de Fontainebleau <br/> avec Blow Cycles !</h1>
-            <p class="text-white text-lg">La forêt de Fontainebleau est un joyau naturel qui ne manquera pas de vous émerveiller. Vous pourrez découvrir des paysages à couper le souffle, des falaises imposantes, des cours d'eau cristallins et une faune abondante.</p>
+            <h1 class="text-4xl font-bold text-white mb-4">{{ hero.title }}</h1>
+            <p class="text-white text-lg">{{ hero.description }}</p>
         </div>
         <div class="w-full md:w-1/3 md:relative">
-            <a href="#" class="bg-accent-500 hover:bg-accent-700 text-white font-bold py-2 px-4 rounded-full ml-4 mb-4 md:absolute md:bottom-0 md:right-0">Réservez maintenant</a>
+            <a href="{{ hero.button.url }}" class="bg-accent-500 hover:bg-accent-700 text-white font-bold py-2 px-4 rounded-full ml-4 mb-4 md:absolute md:bottom-0 md:right-0">{{ hero.button.label }}</a>
         </div>
     </div>
 </section>

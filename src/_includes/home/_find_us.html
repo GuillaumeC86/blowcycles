@@ -1,4 +1,5 @@
 <!-- Find Us -->
+{% assign opening_closing_days = site.data.homepage.opening_closing_days %}
 <section class="py-12 bg-white"  id="horaires_acces">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
@@ -49,7 +50,7 @@
             Fermeture en cas de journée très pluvieuse
           </li>
         </ul>
-        {% assign opening_days = site.data.opening_closing_days.opening_days %}
+        {% assign opening_days = opening_closing_days.opening_days %}
         {% if opening_days.size > 0 %}
         <div class="bg-green-100 border-green-500 rounded-b text-green-900 px-4 py-3 my-4" role="alert" id="opening-days">
           <div class="flex">
@@ -68,7 +69,7 @@
         </div>
       {% endif %}
       
-      {% assign closing_days = site.data.opening_closing_days.closing_days %}
+      {% assign closing_days = opening_closing_days.closing_days %}
       {% if closing_days.size > 0 %}
         <div class="bg-yellow-100 border-yellow-500 rounded-b text-yellow-900 px-4 py-3 my-4" role="alert" id="closing-days">
           <div class="flex">

@@ -2,6 +2,7 @@
 layout: markdown
 title: "Blow Cycles | Location & vente de vélos à assistance électrique"
 permalink: /mentions_legales/
+editable: true
 ---
 
 
