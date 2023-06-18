@@ -70,8 +70,8 @@ collections:
                 { name: 'icon', label: 'Icon', widget: 'string' }
               ]}
           ]}
-        - { name: 'opening_closing_days.opening_days', label: 'Opening Days', widget: 'list', field: { widget: 'string' } }
-        - { name: 'opening_closing_days.closing_days', label: 'Closing Days', widget: 'list', field: { widget: 'string' } }
+        - { name: 'opening_closing_days.opening_days', label: 'Opening Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
+        - { name: 'opening_closing_days.closing_days', label: 'Closing Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
   - name: "configuration"
     label: "Website Configuration"
     files:
