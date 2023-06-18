@@ -1,6 +1,11 @@
 {% assign pricing_cards = site.data.homepage.pricing_cards %}
-<section class="relative" id="tarifs">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 z-10 relative">
+<section id="tarifs" class="relative">
+  <div class="bg-cover bg-center relative" style="background-image: url('{{ base_url }}{{ pricing_cards.background_image }}');">
+    <div class="absolute top-0 left-0 w-full h-full" style="background: linear-gradient(to bottom,#f3f4f6 40%, #FF000000);">
+    </div>
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 relative" >
+      <!-- <div class="absolute top-0 left-0 w-full h-full" style="backdrop-filter: linear-gradient(180deg,#f9f9f9 21.88%,hsla(0,0%,97.6%,.9019607843137255) 42.71%,hsla(0,0%,97.6%,0));"> -->
+
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
         <h2
           class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900"
@@ -21,8 +26,9 @@
         {% include home/_pricing_card.html number=3 %}
       </div>
     </div>
-    <div class="absolute object-cover bottom-0 left-0 z-0">
-      <img src="{{base_url}}/assets/images/header.jpg" alt="BannerImage"/>
-      <div class="absolute h-full w-full bottom-0 left-0" style="background-image: linear-gradient(180deg,#f9f9f9 21.88%,hsla(0,0%,97.6%,.9019607843137255) 42.71%,hsla(0,0%,97.6%,0));" ></div>
-    </div>
+    <!-- <div class="absolute object-cover bottom-0 left-0 z-0">
+      <img src="{{ base_url }}{{ pricing_cards.background_image }}" alt="BannerImage"/>
+      <div class="absolute h-full w-full bottom-0 left-0" ></div>
+    </div> -->
+  </div>
   </section>
