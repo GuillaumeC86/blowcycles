@@ -1,10 +1,13 @@
 features:
-  - icon: "fas fa-bicycle"
-    title: "Des vélos de qualité"
-    description: "Equipés de batteries haute performance pour vous permettre de parcourir de longues distances sans vous fatiguer."
-  - icon: "fas fa-map-signs"
-    title: "Se balader en toute simplicité"
-    description: "Nous vous fournissons une carte détaillée de la forêt pour vous permettre de vous balader en toute simplicité et sécurité."
-  - icon: "fas fa-user-shield"
-    title: "La sécurité avant tout"
-    description: "Nous fournissons des casques et des antivols pour vous garantir une sécurité maximale."
+  - icon: fas fa-bicycle
+    title: Des vélos de qualité
+    description: Confortables et équipés de batteries haute capacité pour vous
+      permettre de parcourir de longues distances sans vous fatiguer.
+  - icon: fas fa-map-signs
+    title: Se balader en toute simplicité
+    description: Nous vous fournissons une carte détaillée pour vous permettre
+      d'évoluer facilement et en sécurité dans la forêt de Fontainebleau.
+  - icon: fas fa-user-shield
+    title: La sécurité avant tout
+    description: Nous fournissons des casques et des antivols pour vous garantir une
+      sécurité maximale durant votre parcours.
