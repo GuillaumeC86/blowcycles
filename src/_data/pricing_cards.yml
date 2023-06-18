@@ -1,14 +1,16 @@
-title: "Découvrez la forêt de Fontainebleau à votre rythme avec nos vélos électriques"
-description: "Que vous cherchiez une petite balade découverte ou une aventure plus longue dans la forêt de Fontainebleau, nous sommes là pour vous accompagner."
-background_image: "/assets/images/header.jpg"
+title: Découvrez la forêt de Fontainebleau à votre rythme avec nos vélos électriques
+description: Envie d'une petite virée le matin ou l'après-midi ? D'une journée
+  entièrement consacrée à de l'exploration forestière ? D'un WE complet avec nos
+  vélos ? Nous avons la formule pour vous !
+background_image: /src/assets/images/img_20221108_135108.jpg
 cards:
   - title: Demi-journée
     description: Envie d'une petite escapade ?
     price: 39€
-    items: 
+    items:
       - text: Jusqu'à 4h de balade
         icon: fa-solid fa-check text-green-500
-      - text: Carte de la forêt et casque VTT 
+      - text: Carte de la forêt et casque VTT
         icon: fa-solid fa-check text-green-500
       - text: Location antivol (2€)
         icon: fa-solid fa-plus text-yellow-500
@@ -17,10 +19,10 @@ cards:
   - title: Journée
     description: Avec une pause pique-nique ?
     price: 59€
-    items: 
+    items:
       - text: Jusqu'à 8h de balade
         icon: fa-solid fa-check text-green-500
-      - text: Carte de la forêt et casque VTT 
+      - text: Carte de la forêt et casque VTT
         icon: fa-solid fa-check text-green-500
       - text: Location antivol (2€)
         icon: fa-solid fa-plus text-yellow-500
@@ -29,8 +31,8 @@ cards:
   - title: Deux jours
     description: Pour les passionnés de nature
     price: 89€
-    items: 
-      - text: Carte de la forêt et casque VTT 
+    items:
+      - text: Carte de la forêt et casque VTT
         icon: fa-solid fa-check text-green-500
       - text: Location antivol (incluse)
         icon: fa-solid fa-check text-green-500
@@ -38,4 +40,3 @@ cards:
         icon: fa-solid fa-plus text-yellow-500
       - text: Journée supplémentaire (30€)
         icon: fa-solid fa-plus text-yellow-500
-
