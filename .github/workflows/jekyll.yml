@@ -38,3 +38,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./src/_site
+          cname: blowcycles.com
+          enable_jekyll: true
