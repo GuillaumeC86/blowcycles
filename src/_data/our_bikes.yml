@@ -15,7 +15,7 @@ bikes:
       sans ressentir la moindre gêne. Avec sa batterie de 720 W, il vous offrira
       sans problème une assistance en forêt sur 60 km dans la
       journée !<br>Taille minimum requise : 1m67"
-    image: bike1.jpg
+    image: /src/assets/images/0-beach-web.jpg
   - name: Maa Chili
     price: 3200 €
     description: "Le Maa Chili a les mêmes qualités que le Beach Cruiser, mais il
@@ -25,7 +25,7 @@ bikes:
       ont des jambes moins grandes que la moyenne. Une accessibilité accrue sans
       renier ni sur le confort, ni sur l'autonomie en forêt.<br>Taille minimum
       requise : 1m62"
-    image: bike2.jpg
+    image: /src/assets/images/0-chili-web.jpg
   - name: Maa Piko
     price: 3100 €
     description: "Destiné aux pré-ados ou ados, mais pouvant être également utilisé
@@ -34,4 +34,4 @@ bikes:
       parcourir de longues promenades en forêt. Mais ne vous fiez pas à sa
       petite taille, il est tout autant puissant et dispose de la même autonomie
       que les grands modèles en 26 pouces !<br>Taille minimum requise : 1m38"
-    image: bike3.jpg
+    image: /src/assets/images/0-piko-web.jpg
