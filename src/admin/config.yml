@@ -46,24 +46,32 @@ collections:
     editor:
       preview: false
     files:
-    - name: 'homepage'
-      label: 'Homepage Content'
-      file: 'src/_data/homepage.yml'
+    - name: 'hero'
+      label: 'Hero Content'
+      file: 'src/_data/hero.yml'
       fields:
-        - { name: 'hero.title', label: 'Hero Title', widget: 'string' }
-        - { name: 'hero.description', label: 'Hero Description', widget: 'text' }
-        - { name: 'hero.image', label: 'Hero Image', widget: 'image' }
-        - { name: 'hero.button.label', label: 'Hero Button Label', widget: 'string' }
-        - { name: 'hero.button.url', label: 'Hero Button URL', widget: 'string' }
+        - { name: 'title', label: 'Hero Title', widget: 'string' }
+        - { name: 'description', label: 'Hero Description', widget: 'text' }
+        - { name: 'image', label: 'Hero Image', widget: 'image' }
+        - { name: 'button.label', label: 'Hero Button Label', widget: 'string' }
+        - { name: 'button.url', label: 'Hero Button URL', widget: 'string' }
+    - name: 'features'
+      label: 'Features'
+      file: 'src/_data/features.yml'
+      fields:
         - { name: 'features', label: 'Features', widget: 'list', fields: [
             { name: 'icon', label: 'Icon', widget: 'string' },
             { name: 'title', label: 'Title', widget: 'string' },
             { name: 'description', label: 'Description', widget: 'text' }
           ]}
-        - { name: 'pricing_cards.title', label: 'Pricing Cards Title', widget: 'string' }
-        - { name: 'pricing_cards.description', label: 'Pricing Cards Description', widget: 'text' }
-        - { name: 'pricing_cards.background_image', label: 'Pricing Cards Background Image', widget: 'image' }
-        - { name: 'pricing_cards.cards', label: 'Pricing Cards', widget: 'list', fields: [
+    - name: 'pricing_cards'
+      label: 'Pricing Cards'
+      file: 'src/_data/pricing_cards.yml'
+      fields:
+        - { name: 'title', label: 'Pricing Cards Title', widget: 'string' }
+        - { name: 'description', label: 'Pricing Cards Description', widget: 'text' }
+        - { name: 'background_image', label: 'Pricing Cards Background Image', widget: 'image' }
+        - { name: 'cards', label: 'Pricing Cards', widget: 'list', fields: [
             { name: 'title', label: 'Title', widget: 'string' },
             { name: 'description', label: 'Description', widget: 'text' },
             { name: 'price', label: 'Price', widget: 'string' },
@@ -72,8 +80,12 @@ collections:
                 { name: 'icon', label: 'Icon', widget: 'string' }
               ]}
           ]}
-        - { name: 'opening_closing_days.opening_days', label: 'Opening Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
-        - { name: 'opening_closing_days.closing_days', label: 'Closing Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
+    - name: 'opening_closing_days'
+      label: 'Opening/Closing Days'
+      file: 'src/_data/opening_closing_days.yml'
+      fields:
+        - { name: 'opening_days', label: 'Opening Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
+        - { name: 'closing_days', label: 'Closing Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
   - name: "configuration"
     label: "Website Configuration"
     files:

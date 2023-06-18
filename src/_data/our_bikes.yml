@@ -1,7 +1,7 @@
 title: "Louez nos vélos et vous tomberez peut-être sur un coup de coeur !"
 description: "Chez Blow Cycles, notre passion est de faire découvrir les merveilles de la nature et de Fontainebleau à nos clients à travers des balades à vélo inoubliables. Et pour que vous puissiez vivre l'expérience à fond, nous avons sélectionné plusieurs vélos haut de gamme qui s'adapteront parfaitement à vos besoin. Si vous avez un coup de cœur pour l'un de nos vélos, vous avez la possibilité de le réserver directement dans notre boutique pour continuer à explorer la nature à votre rythme."
 
-our_bikes:
+bikes:
   - name: "Maa Pure Beach Cruiser"
     price: "3000 €"
     description: "Le Maa Pure Beach Cruiser est le choix parfait pour une balade détendue sur la plage ou à travers les sentiers de forêt. Avec une selle large et confortable qui absorbe les chocs, vous pouvez parcourir de longues distances sans ressentir la moindre fatigue. Ce vélo dispose également d'un porte-bagages pratique équipé de tendeurs pour fixer votre sac à dos et emporter tout ce dont vous avez besoin pour une journée de détente en plein air. Le cadre haut du Beach Cruiser assure une position de conduite confortable et droite, pour une expérience de conduite agréable et relaxante."

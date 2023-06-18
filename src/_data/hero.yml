@@ -1,0 +1,6 @@
+title: "Explorez la forêt de Fontainebleau <br/> avec Blow Cycles !"
+description: "La forêt de Fontainebleau est un joyau naturel qui ne manquera pas de vous émerveiller. Vous pourrez découvrir des paysages à couper le souffle, des falaises imposantes, des cours d'eau cristallins et une faune abondante."
+image: "/assets/images/header.jpg"
+button:
+  label: "Réservez maintenant"
+  url: "reservations/"

@@ -1,6 +1,6 @@
 ---
 layout: markdown
-title: "Blow Cycles | Location & vente de vélos à assistance électrique"
+title: "Blow Cycles | Pour les entreprises"
 permalink: /entreprises/
 editable: true
 ---
