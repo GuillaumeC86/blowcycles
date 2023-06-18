@@ -18,45 +18,107 @@ publish_mode: editorial_workflow
 #   default_locale: fr
 
 collections:
-  - name: 'config'
-    label: 'Config'
-    editor:
-      preview: false
-    files:
-    - name: 'navigation'
-      label: 'Navigation'
-      file: 'src/_data/navigation.yml'
-      fields:
-        - label: 'Table of Contents'
-          name: 'toc'
-          widget: 'list'
-          fields:
-            - { label: Title, name: title, widget: string }
-            - { label: Pages, name: pages, widget: list, fields: [{ label: Page, name: page, widget: string }, { label: URL, name: link, widget: string }] }
-  - name: 'pages'
-    label: 'Pages'
-    folder: 'src/pages'
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
+    filter: {field: "editable", value: true}
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Permalink', name: 'permalink', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Editable", name: "editable", widget: "hidden", default: true}
+      - { label: "Permalink", name: "permalink", widget: "string", default: "/my-link/" }
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "select",
+          default: "markdown",
+          options: ['markdown', 'default']
+        }
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - name: 'homepage'
+    label: 'Homepage'
     editor:
       preview: false
-
-  - name: prices
-    label: Prices
     files:
-    - name: 'pricing_cards'
-      label: 'Pricing Cards'
-      file: 'src/_data/pricing_cards.yml'
+    - name: 'homepage'
+      label: 'Homepage Content'
+      file: 'src/_data/homepage.yml'
       fields:
-      - { name: title, label: Title, widget: string }
-      - { name: description, label: Description, widget: text }
-      - { name: price, label: Price, widget: string }
-      - { name: items, label: Items, widget: list, fields: [
-          { name: text, label: Text, widget: string },
-          { name: icon, label: Icon, widget: string },
-        ]}
+        - { name: 'hero.title', label: 'Hero Title', widget: 'string' }
+        - { name: 'hero.description', label: 'Hero Description', widget: 'text' }
+        - { name: 'hero.image', label: 'Hero Image', widget: 'image' }
+        - { name: 'hero.button.label', label: 'Hero Button Label', widget: 'string' }
+        - { name: 'hero.button.url', label: 'Hero Button URL', widget: 'string' }
+        - { name: 'features', label: 'Features', widget: 'list', fields: [
+            { name: 'icon', label: 'Icon', widget: 'string' },
+            { name: 'title', label: 'Title', widget: 'string' },
+            { name: 'description', label: 'Description', widget: 'text' }
+          ]}
+        - { name: 'pricing_cards.title', label: 'Pricing Cards Title', widget: 'string' }
+        - { name: 'pricing_cards.description', label: 'Pricing Cards Description', widget: 'text' }
+        - { name: 'pricing_cards.background_image', label: 'Pricing Cards Background Image', widget: 'image' }
+        - { name: 'pricing_cards.cards', label: 'Pricing Cards', widget: 'list', fields: [
+            { name: 'title', label: 'Title', widget: 'string' },
+            { name: 'description', label: 'Description', widget: 'text' },
+            { name: 'price', label: 'Price', widget: 'string' },
+            { name: 'items', label: 'Items', widget: 'list', fields: [
+                { name: 'text', label: 'Text', widget: 'string' },
+                { name: 'icon', label: 'Icon', widget: 'string' }
+              ]}
+          ]}
+        - { name: 'opening_closing_days.opening_days', label: 'Opening Days', widget: 'list', field: { widget: 'string' } }
+        - { name: 'opening_closing_days.closing_days', label: 'Closing Days', widget: 'list', field: { widget: 'string' } }
+  - name: "configuration"
+    label: "Website Configuration"
+    files:
+      - name: "config"
+        label: "Config"
+        file: "src/_data/config.yml"
+        fields:
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - label: "GPS"
+            name: "gps"
+            widget: "object"
+            fields:
+              - { label: "Latitude", name: "latitude", widget: "string" }
+              - { label: "Longitude", name: "longitude", widget: "string" }
+          - label: "Social"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Facebook", name: "facebook", widget: "string" }
+              - { label: "Instagram", name: "instagram", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Github", name: "github", widget: "string" }
+      - name: "navbar"
+        label: "Navbar"
+        file: "src/_data/navigation.yml"
+        fields:
+          - name: navigation
+            label: Navigation
+            widget: list
+            fields:
+              - { label: "Displayed Title", name: "text", widget: "string" }
+              - { label: "Link", name: "url", widget: "string", default: "/" }
+  - name: 'our_bikes'
+    label: 'Our Bikes'
+    editor:
+      preview: false
+    files:
+    - name: 'our_bikes'
+      label: 'Our Bikes'
+      file: 'src/_data/our_bikes.yml'
+      fields:
+        - { name: 'title', label: 'Title', widget: 'string' }
+        - { name: 'description', label: 'Description', widget: 'text' }
+        - { name: 'bikes', label: 'Bikes', widget: 'list', fields: [
+            { name: 'title', label: 'Title', widget: 'string' },
+            { name: 'description', label: 'Description', widget: 'text' },
+            { name: 'image', label: 'Image', widget: 'image' }
+          ]}
