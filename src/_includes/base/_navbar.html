@@ -7,7 +7,7 @@
     {% else %}
       {% assign home_url = '#home' %}
     {% endif %}
-    <a href="{{ home_url }}"><img src="{{base_url}}/assets/images/logos/logo_blowcycles_text.svg" alt="logo blowcycles text" class="h-10 fill-current"/></a> 
+    <a href="{{ home_url }}"><img src="{{ '/assets/images/logos/logo_blowcycles_text.svg' | process_image_url: site.baseurl }}" alt="logo blowcycles text" class="h-10 fill-current"/></a> 
     <div class="flex items-center">
 
       {% for link in site.data.navigation.navigation %}
