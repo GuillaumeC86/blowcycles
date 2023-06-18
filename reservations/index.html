@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Blow Cycles | Location & vente de vélos à assistance électrique - Blow Cycles</title>
+    <link rel="alternate" type="application/rss+xml"  href="https://blowcycles.com/feed.xml" title="Blow Cycles">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+      <!-- Navbar -->
+      <!-- Navigation bar -->
+<nav class="bg-white py-4 sticky top-0 z-50">
+  <div class="container mx-auto flex justify-between items-center">
+    
+    
+    <a href="/"><img src="/assets/images/logos/logo_blowcycles_text.svg" alt="logo blowcycles text" class="h-10 fill-current"/></a> 
+    <div class="flex items-center">
+
+      
+        
+        
+  
+
+        <a href="/#tarifs" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Tarifs</a>
+
+      
+        
+        
+  
+
+        <a href="/#horaires_acces" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Horaires et Accès</a>
+
+      
+        
+        
+  
+
+        <a href="/nos_velos/" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Nos Vélos</a>
+
+      
+        
+        
+  
+
+        <a href="/reservations/" class="text-grey-900 hover:text-primary px-3 py-2 rounded">Réservations</a>
+
+      
+    </div>
+  </div>
+</nav>
+
+      <!-- Main content -->
+      <section class="py-12 bg-white" id="horaires_acces">
+  <div class="container mx-auto px-4">
+    <div class="lg:mb-16 mb-8">
+      <h2
+        class="text-center mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900"
+      >
+        Réservation en ligne
+      </h2>
+
+      <p class="mb-4">
+        Sélectionnez la date ainsi que la durée de location souhaitée.
+        Choisissez le nombre de vélos que vous souhaitez louer. Indiquez-nous
+        votre prénom, mail et numéro de téléphone. Nous vous confirmerons par
+        mail ou SMS la bonne réservation de vos vélos.
+      </p>
+
+      <ul class="list-disc list-inside mb-4">
+        <li>
+          Pour toute réservation supérieure à 5 exemplaires d'un même modèle de
+          vélo, merci de nous contacter directement sur blowcycles@gmail.com ou
+          au +33 7 71 62 86 04.
+        </li>
+        <li>
+          Nous ne proposons pas de réservation le mardi ou le jeudi (sauf jours
+          fériés).
+        </li>
+      </ul>
+    </div>
+
+    <div id="googleFormsContainer">
+      <div
+        id="googleFormsConsentBox"
+        style="border-top-color: rgb(76, 175, 80)"
+        class="max-w-screen-sm border-x border-b border-t-8 border-gray-300 rounded-lg p-4"
+      >
+        <h3 class="text-lg font-medium text-gray-900">Consentement requis</h3>
+        <p class="mt-2 text-base text-gray-700">
+          Ce site utilise GoogleForms pour les réservations. En cliquant sur
+          <span class="font-semibold">"J'accepte"</span>, vous acceptez le
+          stockage de cookies par GoogleForms et la transmission de vos données
+          à GoogleForms.
+        </p>
+        <button
+          class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded shadow mr-4"
+          onclick="loadIframe()"
+        >
+          J'accepte
+        </button>
+      </div>
+      <p id="googleFormsRevokeConsent" hidden>
+        Si vous le souhaitez, vous pouvez revenir sur votre consentement à tout
+        moment en cliquant sur
+        <a
+          onclick="revokeConsent()"
+          class="text-primary-500 hover:text-primary-700 font-semibold cursor-pointer"
+          >ce lien</a
+        >
+      </p>
+      <iframe
+        id="googleFormsIframe"
+        hidden
+        style="display: none;"
+        class="w-full block"
+        data-requires-vendor-consent="GoogleForms"
+        data-src="https://docs.google.com/forms/d/e/1FAIpQLSf72Qtjt29bdO3x10BfroytcJAD2MRtZhx2XeoDrmvkvrO1cg/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        height="3000"
+        >Chargement…</iframe
+      >
+    </div>
+
+    <!-- width="640"
+height="2912" -->
+  </div>
+</section>
+
+<script>
+  function loadIframe() {
+    document.getElementById("googleFormsConsentBox").hidden = true;
+    const googleFormsIframe = document.getElementById("googleFormsIframe");
+    const googleFormsRevokeConsent = document.getElementById(
+      "googleFormsRevokeConsent"
+    );
+    googleFormsIframe.src = googleFormsIframe.dataset.src;
+    googleFormsIframe.hidden = false;
+    googleFormsRevokeConsent.hidden = false;
+    googleFormsIframe.style.display = null;
+
+    //   googleFormsIframe.height = "3000px";
+  }
+
+  function revokeConsent() {
+    document.getElementById("googleFormsConsentBox").hidden = false;
+    const googleFormsIframe = document.getElementById("googleFormsIframe");
+    const googleFormsRevokeConsent = document.getElementById(
+      "googleFormsRevokeConsent"
+    );
+    googleFormsRevokeConsent.hidden = true;
+    googleFormsIframe.src = "";
+    googleFormsIframe.hidden = true;
+    googleFormsIframe.style.display = "none";
+
+    //   googleFormsIframe.height = 0;
+  }
+</script>
+
+
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-white py-10">
+    <div class="container mx-auto px-4 text-center">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
+          <h3 class="text-xl font-bold mb-4">Blow Cycles</h3>
+          <p class="mb-4">
+            Louez un vélo et venez explorer la magnifique forêt de Fontainebleau.
+          </p>
+          <p class="mb-4">
+            <a href="/mentions_legales" class="text-white hover:text-gray-400 underline">Mentions légales</a>
+          </p>
+          <p>© 2023 Blow Cycles. Tous droits réservés.</p>
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
+          <h3 class="text-xl font-bold mb-4">Nous contacter</h3>
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span> Gare de Fontainebleau-Avon, Place de la Gare, 77210 Avon
+            </li>
+            <li><span class="fa-li"><i class="fas fa-phone-alt"></i></span> +33 7 71 62 86 04</li>
+            <li><span class="fa-li"><i class="fas fa-envelope"></i></span> blowcycles@gmail.com </li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/3 px-4">
+          <h3 class="text-xl font-bold mb-4">Suivez-nous</h3>
+          <div class="flex justify-center">
+            <a href="https://www.facebook.com/BlowCycles" class="text-white hover:text-gray-400 mr-4"
+              ><i class="fab fa-facebook fa-lg"></i
+            ></a>
+            <a href="https://www.twitter.com/blowcycles" class="text-white hover:text-gray-400 mr-4"
+              ><i class="fab fa-twitter fa-lg"></i
+            ></a>
+            <a href="https://instagram.com/blowcycles" class="text-white hover:text-gray-400"
+              ><i class="fab fa-instagram fa-lg"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+      <!-- Scripts -->
+      <script src="/assets/js/smooth_scrolling.js"></script>
+
+</body>
+</html>
