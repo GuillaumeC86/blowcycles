@@ -1,0 +1,114 @@
+---
+layout: default
+title: "Blow Cycles | Location & vente de vélos à assistance électrique"
+permalink: /reservations/
+editable: false
+---
+
+<section class="py-12 bg-white" id="horaires_acces">
+  <div class="container mx-auto px-4">
+    <div class="lg:mb-16 mb-8">
+      <h2
+        class="text-center mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900"
+      >
+        Réservation en ligne
+      </h2>
+
+      <p class="mb-4">
+        Sélectionnez la date ainsi que la durée de location souhaitée.
+        Choisissez le nombre de vélos que vous souhaitez louer. Indiquez-nous
+        votre prénom, mail et numéro de téléphone. Nous vous confirmerons par
+        mail ou SMS la bonne réservation de vos vélos.
+      </p>
+
+      <ul class="list-disc list-inside mb-4">
+        <li>
+          Pour toute réservation supérieure à 5 exemplaires d'un même modèle de
+          vélo, merci de nous contacter directement sur {{ site.data.config.email }} ou
+          au {{ site.data.config.phone }}.
+        </li>
+        <li>
+          Nous ne proposons pas de réservation le mardi ou le jeudi (sauf jours
+          fériés).
+        </li>
+      </ul>
+    </div>
+
+    <div id="googleFormsContainer">
+      <div
+        id="googleFormsConsentBox"
+        style="border-top-color: rgb(76, 175, 80)"
+        class="max-w-screen-sm border-x border-b border-t-8 border-gray-300 rounded-lg p-4"
+      >
+        <h3 class="text-lg font-medium text-gray-900">Consentement requis</h3>
+        <p class="mt-2 text-base text-gray-700">
+          Ce site utilise GoogleForms pour les réservations. En cliquant sur
+          <span class="font-semibold">"J'accepte"</span>, vous acceptez le
+          stockage de cookies par GoogleForms et la transmission de vos données
+          à GoogleForms.
+        </p>
+        <button
+          class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded shadow mr-4"
+          onclick="loadIframe()"
+        >
+          J'accepte
+        </button>
+      </div>
+      <p id="googleFormsRevokeConsent" hidden>
+        Si vous le souhaitez, vous pouvez revenir sur votre consentement à tout
+        moment en cliquant sur
+        <a
+          onclick="revokeConsent()"
+          class="text-primary-500 hover:text-primary-700 font-semibold cursor-pointer"
+          >ce lien</a
+        >
+      </p>
+      <iframe
+        id="googleFormsIframe"
+        hidden
+        style="display: none;"
+        class="w-full block"
+        data-requires-vendor-consent="GoogleForms"
+        data-src="https://docs.google.com/forms/d/e/1FAIpQLSf72Qtjt29bdO3x10BfroytcJAD2MRtZhx2XeoDrmvkvrO1cg/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        height="3000"
+        >Chargement…</iframe
+      >
+    </div>
+
+    <!-- width="640"
+height="2912" -->
+  </div>
+</section>
+
+<script>
+  function loadIframe() {
+    document.getElementById("googleFormsConsentBox").hidden = true;
+    const googleFormsIframe = document.getElementById("googleFormsIframe");
+    const googleFormsRevokeConsent = document.getElementById(
+      "googleFormsRevokeConsent"
+    );
+    googleFormsIframe.src = googleFormsIframe.dataset.src;
+    googleFormsIframe.hidden = false;
+    googleFormsRevokeConsent.hidden = false;
+    googleFormsIframe.style.display = null;
+
+    //   googleFormsIframe.height = "3000px";
+  }
+
+  function revokeConsent() {
+    document.getElementById("googleFormsConsentBox").hidden = false;
+    const googleFormsIframe = document.getElementById("googleFormsIframe");
+    const googleFormsRevokeConsent = document.getElementById(
+      "googleFormsRevokeConsent"
+    );
+    googleFormsRevokeConsent.hidden = true;
+    googleFormsIframe.src = "";
+    googleFormsIframe.hidden = true;
+    googleFormsIframe.style.display = "none";
+
+    //   googleFormsIframe.height = 0;
+  }
+</script>
