@@ -129,10 +129,10 @@ collections:
       label: 'Our Bikes'
       file: 'src/_data/our_bikes.yml'
       fields:
-        - { name: 'name', label: 'Name', widget: 'string' }
+        - { name: 'title', label: 'Title', widget: 'string' }
         - { name: 'description', label: 'Description', widget: 'text' }
         - { name: 'bikes', label: 'Bikes', widget: 'list', fields: [
-            { name: 'title', label: 'Title', widget: 'string' },
+            { name: 'name', label: 'Name', widget: 'string' },
             { name: 'description', label: 'Description', widget: 'text' },
             { name: 'image', label: 'Image', widget: 'image' }
           ]}
