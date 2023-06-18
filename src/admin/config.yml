@@ -1,8 +1,10 @@
 backend:
-  name: github
-  repo: GuillaumeC86/blowcycles # Path to your GitHub repository
+  name: gitlab
+  repo: blowcycles/blowcycles # Path to your GitHub repository
   # optional, defaults to master
   branch: master
+  auth_type: pkce # Required for pkce
+  app_id: 3fd72faff01fe745a9a6c5950387f92ad2be32533402abea998e891d061de86f # Application ID from your GitLab settings
 
 
 # These lines should *not* be indented
