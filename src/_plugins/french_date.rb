@@ -17,9 +17,11 @@ module FrenchDateFilter
   }.freeze
 
   def french_date(date)
-    month_name_en = Date.parse(date).strftime('%B')
+    # check date is a Date object or a string
+    date_obj = date.is_a?(String) ? Date.parse(date) : date
+    month_name_en = date_obj.strftime('%B')
     month_name_fr = MONTH_NAMES_FR[month_name_en] || month_name_en
-    Date.parse(date).strftime("%-d #{month_name_fr} %Y")
+    date_obj.strftime("%-d #{month_name_fr} %Y")
   end
 end
 
