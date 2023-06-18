@@ -58,9 +58,10 @@
               <i class="fas fa-check-circle"></i>
             </div>
             <div>
-              <p class="font-bold">Ouverture exceptionnelle le{% if opening_days.size > 1 %}s{% endif %} :</p>
+              <p class="font-bold">Ouverture exceptionnelle le :</p>
               <ul class="list-disc list-inside" id="opening-days-list">
-                {% for opening_day in opening_days %}
+                {% assign sorted_opening_days = opening_days | sort %}
+                {% for opening_day in sorted_opening_days %}
                   <li datetime="{{ opening_day }}">{{ opening_day | french_date  }}</li>
                 {% endfor %}
               </ul>
@@ -77,8 +78,9 @@
               <i class="fas fa-exclamation-circle"></i>
             </div>
             <div>
-              <p class="font-bold">Fermeture exceptionnelle le{% if closing_days.size > 1 %}s{% endif %} :</p>
+              <p class="font-bold">Fermeture exceptionnelle le :</p>
               <ul class="list-disc list-inside" id="closing-days-list">
+                {% assign sorted_closing_days = closing_days | sort %}
                 {% for closing_day in closing_days %}
                   <li datetime="{{ closing_day }}">{{ closing_day | french_date }}</li>
                 {% endfor %}
