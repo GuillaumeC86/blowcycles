@@ -4,6 +4,6 @@ description: Que vous cherchiez une petite balade découverte ou une aventure
   accompagner en vous fournissant les vélos adaptés et les suggestions
   d'itinéraires à suivre (sur notre carte papier fournie avec les vélos, ou avec
   l'application Komoot).
-image: /assets/images/header.jpg
+image: /src/assets/images/img_0273.jpeg
 button_label: Réservez maintenant
 button_url: reservations/
