@@ -5,7 +5,7 @@ description: Envie d'une petite virée le matin ou l'après-midi ? D'une journé
 background_image: /src/assets/images/img_20221108_135108.jpg
 cards:
   - title: Demi-journée
-    description: Envie d'une petite escapade ?
+    description: Besoin d'une petite escapade ?
     price: 39€
     items:
       - text: Jusqu'à 4h de balade
@@ -17,7 +17,7 @@ cards:
       - text: Demi-journée supplémentaire (20€)
         icon: fa-solid fa-plus text-yellow-500
   - title: Journée
-    description: Avec une pause pique-nique ?
+    description: N'oubliez pas le pique-nique...
     price: 59€
     items:
       - text: Jusqu'à 8h de balade
@@ -29,7 +29,7 @@ cards:
       - text: Journée supplémentaire (30€)
         icon: fa-solid fa-plus text-yellow-500
   - title: Deux jours
-    description: Pour les passionnés de nature
+    description: Pour les passionnés de nature !
     price: 89€
     items:
       - text: Carte de la forêt et casque VTT
