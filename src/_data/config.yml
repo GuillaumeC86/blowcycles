@@ -1,13 +1,11 @@
-address: "Gare de Fontainebleau-Avon, Place de la Gare, 77210 Avon"
-phone: "+33 7 71 62 86 04"
-email: "blowcycles@gmail.com"
+address: Gare de Fontainebleau-Avon,<br/>Place de la Gare, 77210 Avon
+phone: +33 7 71 62 86 04
+email: blowcycles@gmail.com
 gps:
   latitude: "48.416450217349535"
   longitude: "2.7263004696687942"
 social:
-  facebook: "https://www.facebook.com/BlowCycles"
-  instagram: "https://instagram.com/blowcycles"
-  twitter: "https://www.twitter.com/blowcycles"
-  # youtube: "https://www.youtube.com/channel/blowcycles"
-  # linkedin: "https://www.linkedin.com/company/blowcycles"
-  github: "https://github.com/GuillaumeC86/blowcycles"
+  facebook: https://www.facebook.com/BlowCycles
+  instagram: https://instagram.com/blowcycles
+  twitter: https://www.twitter.com/blowcycles
+  github: https://github.com/GuillaumeC86/blowcycles
