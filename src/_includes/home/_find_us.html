@@ -21,15 +21,15 @@
         <ul class="fa-ul my-4">
           <li>
             <span class="fa-li"><i class="fa-solid fa-calendar-day"></i></span>
-            Lundi / Mercredi / Vendredi / Samedi / Dimanche
+            {{ opening_closing_days.days_of_the_week }}
           </li>
           <li>
-            <span class="fa-li"><i class="fas fa-clock"></i></span> De 9h à 18h
-            d'Octobre à Mai
+            <span class="fa-li"><i class="fas fa-clock"></i></span>
+            {{ opening_closing_days.timetables_season_1 }}
           </li>
           <li>
-            <span class="fa-li"><i class="fas fa-clock"></i></span> De 9h à 19h
-            de Juin à Septembre
+            <span class="fa-li"><i class="fas fa-clock"></i></span>
+            {{ opening_closing_days.timetables_season_2 }}
           </li>
         </ul>
 

@@ -86,6 +86,9 @@ collections:
       fields:
         - { name: 'opening_days', label: 'Opening Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
         - { name: 'closing_days', label: 'Closing Days', widget: 'list', field: { name: 'date', label: 'YYYY-MM-DD', widget: 'string' } }
+        - { name: 'days_of_the_week', label: 'Jours de la semaine', widget: 'string' }
+        - { name: 'timetables_season_1', label: 'Horaires saison 1', widget: 'string' }
+        - { name: 'timetables_season_2', label: 'Horaires saison 2', widget: 'string' }
   - name: "configuration"
     label: "Website Configuration"
     files:
