@@ -1427,6 +1427,14 @@ video {
     margin-bottom: 0px;
   }
 
+  .md\:ml-auto {
+    margin-left: auto;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
   .md\:h-96 {
     height: 24rem;
   }

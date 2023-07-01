@@ -86,7 +86,7 @@
       <div
         id="googleFormsConsentBox"
         style="border-top-color: rgb(76, 175, 80)"
-        class="max-w-screen-sm border-x border-b border-t-8 border-gray-300 rounded-lg p-4"
+        class="max-w-screen-sm border-x border-b border-t-8 border-gray-300 rounded-lg p-4 mx-auto"
       >
         <h3 class="text-lg font-medium text-gray-900">Consentement requis</h3>
         <p class="mt-2 text-base text-gray-700">
@@ -95,12 +95,14 @@
           stockage de cookies par GoogleForms et la transmission de vos données
           à GoogleForms.
         </p>
+        <div class="w-full flex">
         <button
-          class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded shadow mr-4"
+          class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded shadow mx-auto md:ml-auto md:mr-0 mt-4"
           onclick="loadIframe()"
         >
           J'accepte
         </button>
+      </div>
       </div>
       <p id="googleFormsRevokeConsent" hidden>
         Si vous le souhaitez, vous pouvez revenir sur votre consentement à tout
@@ -133,32 +135,63 @@ height="2912" -->
 
 <script>
   function loadIframe() {
-    document.getElementById("googleFormsConsentBox").hidden = true;
+    // Store consent in local storage
+    localStorage.setItem("consentGiven", "true");
+    const expirationDate = new Date();
+    expirationDate.setMonth(expirationDate.getMonth() + 1);
+    localStorage.setItem("consentExpiration", expirationDate.toISOString());
+
+
+    displayIframe();
+  }
+
+  function displayIframe() {
+    const googleFormsConsentBox = document.getElementById("googleFormsConsentBox");
+    googleFormsConsentBox.hidden = true;
+
     const googleFormsIframe = document.getElementById("googleFormsIframe");
-    const googleFormsRevokeConsent = document.getElementById(
-      "googleFormsRevokeConsent"
-    );
+    const googleFormsRevokeConsent = document.getElementById("googleFormsRevokeConsent");
     googleFormsIframe.src = googleFormsIframe.dataset.src;
     googleFormsIframe.hidden = false;
     googleFormsRevokeConsent.hidden = false;
     googleFormsIframe.style.display = null;
-
-    //   googleFormsIframe.height = "3000px";
   }
+
 
   function revokeConsent() {
     document.getElementById("googleFormsConsentBox").hidden = false;
     const googleFormsIframe = document.getElementById("googleFormsIframe");
-    const googleFormsRevokeConsent = document.getElementById(
-      "googleFormsRevokeConsent"
-    );
+    const googleFormsRevokeConsent = document.getElementById("googleFormsRevokeConsent");
     googleFormsRevokeConsent.hidden = true;
     googleFormsIframe.src = "";
     googleFormsIframe.hidden = true;
     googleFormsIframe.style.display = "none";
 
-    //   googleFormsIframe.height = 0;
+    // Clear consent from local storage
+    localStorage.removeItem("consentGiven");
+    localStorage.removeItem("consentExpiration");
+
   }
+
+
+  // Display iframe if consent was given and is still valid
+  window.addEventListener("load", function() {
+    const consentGiven = localStorage.getItem("consentGiven");
+    const consentExpiration = localStorage.getItem("consentExpiration");
+
+    if (consentGiven && consentExpiration) {
+      const expirationDate = new Date(consentExpiration);
+      const currentDate = new Date();
+
+      if (currentDate < expirationDate) {
+        displayIframe();
+      } else {
+        revokeConsent();
+      }
+    }
+  });
+
+
 </script>
 
 
