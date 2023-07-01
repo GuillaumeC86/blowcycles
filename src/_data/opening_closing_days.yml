@@ -1,8 +1,7 @@
-days_of_the_week: "Lundi / Mercredi / Vendredi / Samedi / Dimanche"
-timetables_season_1: "De 9h à 18h d'Octobre à Mai"
-timetables_season_2: "De 9h à 19h de Juin à Septembre"
-
 opening_days:
   - 2023-08-15
   - 2023-07-14
 closing_days: []
+days_of_the_week: Lundi / Mercredi / Vendredi / Samedi / Dimanche
+timetables_season_1: De 9h15 à 18h00 d'Octobre à Mai
+timetables_season_2: De 9h15 à 19h00 de Juin à Septembre
