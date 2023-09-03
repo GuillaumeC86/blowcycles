@@ -1,14 +1,12 @@
-opening_days:
-  - 2023-08-15
-closing_days:
-  - 2023-08-30
-  - 2023-09-04
-  - 2023-09-06
-  - 2023-09-08
+opening_days: []
+closing_days: []
 special_messages:
-  - title: La boutique sera fermée du lundi 25 décembre 2023 au mardi 2 janvier 2024
-      inclus
-    message: Fermeture annuelle hivernale.
+  - title: La boutique sera fermée du lundi 4 septembre au vendredi 8 septembre
+      inclus.
+    message: Fermeture de rentrée.
+  - title: La boutique sera fermée du lundi 11 septembre au vendredi 15 septembre
+      inclus.
+    message: Fermeture de rentrée.
 days_of_the_week: Lundi / Mercredi / Vendredi / Samedi / Dimanche
 timetables_season_1: De 9h30 à 18h00 d'Octobre à Mai
 timetables_season_2: De 9h30 à 19h00 de Juin à Septembre
