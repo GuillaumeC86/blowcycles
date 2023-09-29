@@ -1,12 +1,8 @@
-opening_days: []
+opening_days:
+  - 2023-11-01
+  - 2023-11-11
 closing_days: []
-special_messages:
-  - title: La boutique sera fermée du lundi 4 septembre au vendredi 8 septembre
-      inclus.
-    message: Fermeture de rentrée.
-  - title: La boutique sera fermée du lundi 11 septembre au vendredi 15 septembre
-      inclus.
-    message: Fermeture de rentrée.
+special_messages: []
 days_of_the_week: Lundi / Mercredi / Vendredi / Samedi / Dimanche
 timetables_season_1: De 9h30 à 18h00 d'Octobre à Mai
 timetables_season_2: De 9h30 à 19h00 de Juin à Septembre
