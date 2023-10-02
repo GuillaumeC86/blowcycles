@@ -1,7 +1,10 @@
 opening_days:
   - 2023-11-01
   - 2023-11-11
-closing_days: []
+closing_days:
+  - 2023-10-04
+  - 2023-10-06
+  - 2023-10-09
 special_messages: []
 days_of_the_week: Lundi / Mercredi / Vendredi / Samedi / Dimanche
 timetables_season_1: De 9h30 à 18h00 d'Octobre à Mai
