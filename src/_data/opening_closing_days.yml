@@ -1,11 +1,12 @@
 opening_days:
+  - 2023-10-31
   - 2023-11-01
   - 2023-11-11
 closing_days:
-  - 2023-10-04
-  - 2023-10-06
-  - 2023-10-09
-special_messages: []
+  - 2023-10-30
+special_messages:
+  - title: Spécial Halloween
+    message: Ouverture exceptionnelle le mardi, pour célébrer halloween !
 days_of_the_week: Lundi / Mercredi / Vendredi / Samedi / Dimanche
 timetables_season_1: De 9h30 à 18h00 d'Octobre à Mai
 timetables_season_2: De 9h30 à 19h00 de Juin à Septembre
