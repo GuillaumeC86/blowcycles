@@ -91,6 +91,7 @@ collections:
             { name: 'message', label: 'Message', widget: 'text' }
           ]}
         - { name: 'days_of_the_week', label: 'Jours de la semaine', widget: 'string' }
+        - { name: 'holiday_period', label: 'Période de vacances', widget: 'string' }
         - { name: 'timetables_season_1', label: 'Horaires saison 1', widget: 'string' }
         - { name: 'timetables_season_2', label: 'Horaires saison 2', widget: 'string' }
   - name: "configuration"
