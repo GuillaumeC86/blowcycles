@@ -1,8 +1,10 @@
 opening_days:
-  - 2023-11-01
-  - 2023-11-11
-closing_days: []
-special_messages: []
+  - 2023-12-24
+closing_days:
+  - 2023-12-17
+special_messages:
+  - title: Fermeture annuelle hivernale
+    message: Notre magasin sera fermé du 25 décembre 2023 au 14 janvier 2024 inclus.
 days_of_the_week: Vendredi / Samedi / Dimanche / Lundi
 holiday_period: Mercredi (vacances scolaires uniquement, zone A/B/C)
 timetables_season_1: De 9h30 à 18h00 d'Octobre à Mai
