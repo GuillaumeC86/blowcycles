@@ -1,4 +1,9 @@
-opening_days: []
+opening_days:
+  - 2024-04-01
+  - 2024-05-01
+  - 2024-04-30
+  - 2024-05-08
+  - 2025-05-09
 closing_days: []
 special_messages: []
 days_of_the_week: Vendredi / Samedi / Dimanche / Lundi / Jours Fériés
