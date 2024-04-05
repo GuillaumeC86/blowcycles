@@ -14,7 +14,7 @@ bikes:
       les épaules relachées afin de profiter d'une journée entière sur la selle
       sans ressentir la moindre gêne. Avec sa batterie de 720 W, il vous offrira
       sans problème une assistance en forêt sur 60 km dans la
-      journée !<br>Taille minimum requise : 1m67"
+      journée !<br>Taille minimum requise : 1m71"
     image: /src/assets/images/0-beach-web.jpg
   - name: Maa Chili
     price: 3200 €
@@ -24,7 +24,7 @@ bikes:
       basse (cadre dit « féminin ») et convient mieux aux seniors ou à ceux qui
       ont des jambes moins grandes que la moyenne. Une accessibilité accrue sans
       renier ni sur le confort, ni sur l'autonomie en forêt.<br>Taille minimum
-      requise : 1m62"
+      requise : 1m63"
     image: /src/assets/images/0-chili-web.jpg
   - name: Maa Piko
     price: 3100 €
