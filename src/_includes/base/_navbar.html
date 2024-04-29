@@ -12,10 +12,12 @@
 
       {% for link in site.data.navigation.navigation %}
         {% assign link_url = link.url %}
+
         {% if page.layout != 'home' %}
-          {% assign link_url = base_url | append: '/' | append: link.url %}
+          {% unless link_url contains 'https://' %}
+            {% assign link_url = base_url | append: '/' | append: link.url %}
+          {% endunless %}
         {% endif %}
-  
 
         <a href="{{ link_url }}" class="text-grey-900 hover:text-primary px-3 py-2 rounded">{{ link.text }}</a>
 
