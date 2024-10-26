@@ -1,0 +1,56 @@
+title: Nos vélos à assistance électrique reconditionnés à moitié prix
+description: Freinage, transmission, roues, éclairage, etc. Tout a été contrôlé, réglé et/ou
+  remplacé afin d'offir au vélo une nouvelle jeunesse et des prestations techniques
+  dignes d'un état neuf, mais pour 50% moins cher que leur prix neuf !
+background_image: /images/background_blowcycles_last.jpg
+cards:
+  - title: Maa Beach Cruiser (noir)
+    image: /images/nos_velos/beach_web.jpg
+    description: Une description succinte du vélo
+    base_price: 2790€
+    price: 1395€
+    items:
+      - text: "Autonomie réelle : jusqu'à 100 km"
+        icon: fas fa-battery-full
+      - text: "Puissance : 250 W / 80 Nm"
+        icon: fas fa-bolt
+      - text: "Freins à disque : hydraulique Tektro"
+        icon: fa-solid fa-gears
+      - text: "Selle : Royal Drifter"
+        icon: fa-solid fa-bicycle
+      - text: "Éclairage : LED"
+        icon: fas fa-lightbulb
+
+  - title: Maa Beach Cruiser (beige)
+    image: /images/nos_velos/beach_web_beige.jpg  # Replace with actual image path if different
+    description: Une description succincte du vélo
+    base_price: 2790€
+    price: 1395€
+    items:
+      - text: "Autonomie réelle : jusqu'à 100 km"
+        icon: fas fa-battery-full
+      - text: "Puissance : 250 W / 80 Nm"
+        icon: fas fa-bolt
+      - text: "Freins à disque : hydraulique Tektro"
+        icon: fa-solid fa-gears
+      - text: "Selle : Royal Drifter"
+        icon: fa-solid fa-bicycle
+      - text: "Éclairage : LED"
+        icon: fas fa-lightbulb
+
+  - title: Maa Piko (rouge)
+    image: /images/nos_velos/piko_rouge.jpg  # Replace with actual image path if different
+    description: Une description succincte du vélo
+    base_price: 2850€
+    price: 1425€
+    items:
+      - text: "Autonomie réelle : jusqu'à 100 km"
+        icon: fas fa-battery-full
+      - text: "Puissance : 250 W / 80 Nm"
+        icon: fas fa-bolt
+      - text: "Freins à disque : hydraulique Promax"
+        icon: fa-solid fa-gears
+      - text: "Selle : Royal Onida"
+        icon: fa-solid fa-bicycle
+      - text: "Éclairage : LED"
+        icon: fas fa-lightbulb

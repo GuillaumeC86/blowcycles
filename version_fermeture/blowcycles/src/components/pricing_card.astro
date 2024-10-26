@@ -1,11 +1,9 @@
 ---
-const { title = "Basic Plan",
-    description = "Perfect for casual riders.",
-    price = "€20",
-    items = [
-        { icon: "fas fa-bicycle", text: "2 hours bike rental" },
-        { icon: "fas fa-helmet-safety", text: "Helmet included" }
-    ]
+const { title,
+    description,
+    base_price,
+    price,
+    items,
 } = Astro.props;
 
 ---
@@ -16,9 +14,17 @@ const { title = "Basic Plan",
     <p class="font-light text-gray-500 sm:text-lg">
         {description}
     </p>
-    <div class="flex justify-center items-baseline my-8">
-        <span class="mr-2 text-5xl font-extrabold">{price}</span>
-    </div>
+    <div class="relative my-8">
+        <span class="relative text-4xl text-red-600 font-bold">
+          <span> {base_price} </span>
+          <span class="absolute bottom-5 left-0 block h-1 w-full -rotate-6 transform border-t-4 border-red-600"></span>
+          <span class="absolute bottom-5 left-0 block h-1 w-full rotate-6 transform border-t-4 border-red-600 "></span>
+        </span>
+        <span class="py-4 pl-4 text-6xl font-extrabold">
+          <span>{price}</span>
+        </span>
+      </div>
+      
 
     <!-- List -->
     <ul role="list" class="mb-8 space-y-4 text-left h-full">
@@ -32,9 +38,9 @@ const { title = "Basic Plan",
     </ul>
 
     <a
-        href="https://blowcycles.notresphere.com/location-materiel"
+        href="/nos_velos"
         class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
     >
-        Réservez maintenant !
+        En savoir plus
     </a>
 </div>

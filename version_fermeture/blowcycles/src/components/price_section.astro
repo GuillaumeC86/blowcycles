@@ -1,17 +1,7 @@
 ---
 import PricingCard from './pricing_card.astro';
+import pricingCards from "../content/data/pricing_cards.yml";
 
-// Example pricing data. Replace this with actual data or import from a config file.
-const pricingCards = {
-  backgroundImage: "/assets/images/pricing-background.jpg",  // Replace with actual background image path
-  title: "Nos Tarifs",
-  description: "Découvrez nos options de location de vélo adaptées à vos besoins",
-  cards: [
-    { title: "Basic Plan", description: "Perfect for casual riders.", price: "€20", items: [{ icon: "fas fa-bicycle", text: "2 hours bike rental" }, { icon: "fas fa-helmet-safety", text: "Helmet included" }] },
-    { title: "Premium Plan", description: "Ideal for a full day adventure.", price: "€50", items: [{ icon: "fas fa-bicycle", text: "Full day bike rental" }, { icon: "fas fa-helmet-safety", text: "Helmet included" }, { icon: "fas fa-map", text: "Guided tour option" }] },
-    { title: "Family Plan", description: "Fun for the whole family.", price: "€100", items: [{ icon: "fas fa-bicycle", text: "Full day rental for 4 bikes" }, { icon: "fas fa-helmet-safety", text: "Helmets included" }] }
-  ]
-};
 ---
 
 <section id="tarifs" class="relative">

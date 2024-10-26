@@ -2,17 +2,22 @@
 const currentYear = new Date().getFullYear();
 
 // Configuration data for the site
-const siteData = {
-  title: "Blow Cycles",
-  address: "Your Address Here",       // Replace with actual address
-  phone: "+33 123 456 789",           // Replace with actual phone number
-  email: "info@blowcycles.com",       // Replace with actual email
-  social: {
-    facebook: "https://facebook.com/yourpage", // Replace with actual Facebook URL
-    twitter: "https://twitter.com/yourpage",   // Replace with actual Twitter URL
-    instagram: "https://instagram.com/yourpage" // Replace with actual Instagram URL
-  }
-};
+// const siteData = {
+//   title: "Blow Cycles",
+//   address: "Your Address Here",       // Replace with actual address
+//   phone: "+33 123 456 789",           // Replace with actual phone number
+//   email: "info@blowcycles.com",       // Replace with actual email
+//   social: {
+//     facebook: "https://facebook.com/yourpage", // Replace with actual Facebook URL
+//     twitter: "https://twitter.com/yourpage",   // Replace with actual Twitter URL
+//     instagram: "https://instagram.com/yourpage" // Replace with actual Instagram URL
+//   }
+// };
+
+// import the config data from the yml file in the content folder
+import siteData from '../content/data/config.yml';
+
+console.log(siteData);
 ---
 
 <footer class="bg-gray-900 text-white py-10">
@@ -36,7 +41,7 @@ const siteData = {
         <h3 class="text-xl font-bold mb-4">Nous contacter</h3>
         <ul class="fa-ul">
           <li>
-            <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span> {siteData.address}
+            <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span> <Fragment set:html={siteData.address}></Fragment>
           </li>
           <li>
             <span class="fa-li"><i class="fas fa-phone-alt"></i></span> {siteData.phone}
