@@ -1,0 +1,29 @@
+---
+const isHomePage = Astro.url.pathname === '/';
+const homeUrl = isHomePage ? '#home' : '/';
+const navLinks = [
+  { url: '/about', text: 'About Us' },    // Replace with actual links and text
+  { url: '/services', text: 'Services' },
+  { url: '/contact', text: 'Contact' }
+];
+---
+
+<!-- Navigation bar -->
+<nav class="bg-white py-4 sticky top-0 z-50">
+  <div class="container mx-auto flex justify-between items-center">
+    
+    <!-- Logo Link -->
+    <a href={homeUrl}>
+      <img src="/assets/images/logos/logo_blowcycles_text.svg" alt="logo blowcycles text" class="h-10 fill-current" />
+    </a> 
+
+    <!-- Navigation Links -->
+    <div class="flex items-center">
+      {navLinks.map(link => (
+        <a href={isHomePage ? link.url : `/${link.url}`} class="text-grey-900 hover:text-primary px-3 py-2 rounded">
+          {link.text}
+        </a>
+      ))}
+    </div>
+  </div>
+</nav>

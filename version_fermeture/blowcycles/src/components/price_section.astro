@@ -1,0 +1,41 @@
+---
+import PricingCard from './pricing_card.astro';
+
+// Example pricing data. Replace this with actual data or import from a config file.
+const pricingCards = {
+  backgroundImage: "/assets/images/pricing-background.jpg",  // Replace with actual background image path
+  title: "Nos Tarifs",
+  description: "Découvrez nos options de location de vélo adaptées à vos besoins",
+  cards: [
+    { title: "Basic Plan", description: "Perfect for casual riders.", price: "€20", items: [{ icon: "fas fa-bicycle", text: "2 hours bike rental" }, { icon: "fas fa-helmet-safety", text: "Helmet included" }] },
+    { title: "Premium Plan", description: "Ideal for a full day adventure.", price: "€50", items: [{ icon: "fas fa-bicycle", text: "Full day bike rental" }, { icon: "fas fa-helmet-safety", text: "Helmet included" }, { icon: "fas fa-map", text: "Guided tour option" }] },
+    { title: "Family Plan", description: "Fun for the whole family.", price: "€100", items: [{ icon: "fas fa-bicycle", text: "Full day rental for 4 bikes" }, { icon: "fas fa-helmet-safety", text: "Helmets included" }] }
+  ]
+};
+---
+
+<section id="tarifs" class="relative">
+  <div class="bg-cover bg-center relative" style={`background-image: url(${pricingCards.backgroundImage});`}>
+    <div class="absolute top-0 left-0 w-full h-full" style="background: linear-gradient(to bottom, #f3f4f6 40%, #FF000000);">
+    </div>
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 relative">
+      
+      <!-- Section Header -->
+      <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
+          {pricingCards.title}
+        </h2>
+        <p class="mb-5 font-light text-gray-500 sm:text-xl">
+          {pricingCards.description}
+        </p>
+      </div>
+      
+      <!-- Pricing Cards -->
+      <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+        {pricingCards.cards.map((card, index) => (
+          <PricingCard {...card} />
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
