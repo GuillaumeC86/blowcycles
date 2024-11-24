@@ -5,10 +5,10 @@ description: Freinage, transmission, roues, éclairage, etc. Tout a été contr�
 background_image: /images/img_20221108_135108.jpg
 cards:
   - title: Maa Beach Cruiser (noir)
-    image: /images/nos_velos/beach_web.jpg
-    description: Une description succinte du vélo
+    image: /images/nos_velos/beach_web_rouge.jpg
+    description: En noir et rouge, il a un look agressif mais garde une part de discrétion avec le mat de son noir.
     base_price: 2790€
-    price: 1395€
+    price: 1250€
     items:
       - text: "Autonomie réelle : jusqu'à 100 km"
         icon: fas fa-battery-full
@@ -23,9 +23,9 @@ cards:
 
   - title: Maa Beach Cruiser (beige)
     image: /images/nos_velos/beach_web_beige.jpg  # Replace with actual image path if different
-    description: Une description succincte du vélo
+    description: En beige et noir, il a un look vintage avec un soupçon d'aventure dans les veines.
     base_price: 2790€
-    price: 1395€
+    price: 1250€
     items:
       - text: "Autonomie réelle : jusqu'à 100 km"
         icon: fas fa-battery-full
@@ -38,19 +38,19 @@ cards:
       - text: "Éclairage : LED"
         icon: fas fa-lightbulb
 
-  - title: Maa Piko (rouge)
-    image: /images/nos_velos/piko_rouge.jpg  # Replace with actual image path if different
-    description: Une description succincte du vélo
-    base_price: 2850€
-    price: 1425€
-    items:
-      - text: "Autonomie réelle : jusqu'à 100 km"
-        icon: fas fa-battery-full
-      - text: "Puissance : 250 W / 80 Nm"
-        icon: fas fa-bolt
-      - text: "Freins à disque : hydraulique Promax"
-        icon: fa-solid fa-gears
-      - text: "Selle : Royal Onida"
-        icon: fa-solid fa-bicycle
-      - text: "Éclairage : LED"
-        icon: fas fa-lightbulb
+  # - title: Maa Piko (rouge)
+  #   image: /images/nos_velos/piko_rouge.jpg  # Replace with actual image path if different
+  #   description: Une description succincte du vélo
+  #   base_price: 2850€
+  #   price: 1425€
+  #   items:
+  #     - text: "Autonomie réelle : jusqu'à 100 km"
+  #       icon: fas fa-battery-full
+  #     - text: "Puissance : 250 W / 80 Nm"
+  #       icon: fas fa-bolt
+  #     - text: "Freins à disque : hydraulique Promax"
+  #       icon: fa-solid fa-gears
+  #     - text: "Selle : Royal Onida"
+  #       icon: fa-solid fa-bicycle
+  #     - text: "Éclairage : LED"
+  #       icon: fas fa-lightbulb

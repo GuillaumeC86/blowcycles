@@ -11,7 +11,6 @@ editable: true
 **blowcycles.com est un site Internet édité par Blow Cycles.**
 
 -  Blow Cycles, SARL Unipersonnelle (EURL) de location, vente et entretien de bicyclettes.
--  Boutique : Gare de Fontainebleau-Avon Place de la Gare - 77210 Avon.
 -  Siège social : 90, rue du Lieutenant Moisant - 77190 Dammarie les Lys.
 -  Capital social : de 9000 €.
 -  SIREN : 898 324 538 RCS Melun.

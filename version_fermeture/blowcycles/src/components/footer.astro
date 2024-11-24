@@ -28,9 +28,6 @@ console.log(siteData);
       <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
         <h3 class="text-xl font-bold mb-4">Blow Cycles</h3>
         <p class="mb-4">
-          Louez un vélo et venez explorer la magnifique forêt de Fontainebleau.
-        </p>
-        <p class="mb-4">
           <a href="/mentions_legales" class="text-white hover:text-gray-400 underline">Mentions légales</a>
         </p>
         <p>© {currentYear} Blow Cycles. Tous droits réservés.</p>
@@ -40,9 +37,6 @@ console.log(siteData);
       <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
         <h3 class="text-xl font-bold mb-4">Nous contacter</h3>
         <ul class="fa-ul">
-          <li>
-            <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span> <Fragment set:html={siteData.address}></Fragment>
-          </li>
           <li>
             <span class="fa-li"><i class="fas fa-phone-alt"></i></span> {siteData.phone}
           </li>

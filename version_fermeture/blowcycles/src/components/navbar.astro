@@ -1,6 +1,5 @@
 ---
-const isHomePage = Astro.url.pathname === '/';
-const homeUrl = isHomePage ? '#home' : '/';
+const homeUrl = '/';
 const navLinks = [
   { url: '/nos_velos', text: 'Nos vélos' },    // Replace with actual links and text
 ];
@@ -19,7 +18,7 @@ const navLinks = [
     <!-- Navigation Links -->
     <div class="flex items-center">
       {navLinks.map(link => (
-        <a href={isHomePage ? link.url : `/${link.url}`} class="text-grey-900 hover:text-primary-800 hover:underline px-3 py-2 rounded">
+        <a href={`${link.url}`} class="text-grey-900 hover:text-primary-800 hover:underline px-3 py-2 rounded">
           {link.text}
         </a>
       ))}
