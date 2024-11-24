@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/layout.astro';
+import PricingCard from '../components/pricing_card.astro';
+import pricingCards from "../content/data/pricing_cards.yml";
+
+---
+
+<Layout>
+<section id="tarifs" class="relative">
+  <div class="bg-cover bg-center relative" style={`background-image: url(${pricingCards.background_image});`}>
+    <div class="absolute top-0 left-0 w-full h-full" style="background: linear-gradient(to bottom, #f3f4f6 40%, #FF000000);">
+    </div>
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 relative">
+      
+      <!-- Section Header -->
+      <div class="mx-auto text-center mb-8 lg:mb-12">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 max-w-screen-md mx-auto">
+          {pricingCards.title}
+        </h2>
+        <p class="mb-5 font-light text-gray-600 sm:text-xl">
+          Le Beach Cruiser est un classique de la marque Maa commercialisé jusqu'en 2023. 
+          Il vous emmènera partout sans rechigner ni perdre en assistance quand ça monte.
+          Niveau confort, sa selle Royal Drifter et son guidon incurvé vous donneront une assise et une prise en main permettant de faire du vélo pendant des heures sans se fatiguer. 
+        </p>
+        <p class="mb-5 font-light text-gray-600 sm:text-xl">
+          Niveau autonomie, vous pouvez très bien lui demander d'y aller franco, à fond de ses capacites, en pédalant au strict minimum, il tiendra au moins 40 km. Et en usage standard, promenade, il est capable de sortir une autonomie REELE de 100 km ! 
+          Enfin, grâce à son porte bagages, vous pouvez transporter une charge allant jusqu'à 25 kg.
+        </p>
+        <p class="mb-5 font-light text-gray-600 sm:text-xl">
+          Nos vélos reconditionnés sont éligibles à la prime régionale (400 € remboursés après achat) si vous habitez en Ile-de-France.
+        </p>
+
+        <p class="mb-5 font-light text-gray-600 sm:text-xl">
+          Pour vous offrir un de nos vélos, contactez-nous par mail (blowcycles@gmail.com) ou par téléphone (06 99 07 73 24).
+        </p>
+      </div>
+      
+      <!-- Pricing Cards -->
+      <div class="space-y-8 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0">
+        {pricingCards.cards.map((card, index) => (
+          <PricingCard {...card} display_contact/>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</Layout>
+

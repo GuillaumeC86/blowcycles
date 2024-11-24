@@ -1,8 +1,6 @@
 ---
-layout: markdown
+layout: "../layouts/prose.astro"
 title: "Blow Cycles | Location & vente de vélos à assistance électrique"
-permalink: /mentions_legales/
-editable: true
 ---
 
 

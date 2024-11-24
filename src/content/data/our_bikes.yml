@@ -1,0 +1,37 @@
+title: Nos vélos disponibles à la location (et à la vente) !
+description: >-
+  Chez Blow Cycles, notre credo est de faire découvrir la forêt de Fontainebleau
+  et ses nombreux trésors (panoramas, points d'intérêts, biomes variés, etc.) au
+  plus grand nombre. Il suffit juste de savoir pédaler. 
+
+  Et pour vous offrir cette expérience inoubliable mais accessible, nous avons opté pour des modèles de vélos très confortables à assistance électrique à pneus larges (des fatbikes), à l'aise sur tous les types de sols (même sur les sentiers sableux).<br>Ces vélos nous les louons, et nous les proposons également à la vente en tant que revendeurs officiels de Maa -marque basée Seignosse dans les Landes (40)-. Si vous tombez sous le charme de nos vélos, n'hésitez pas à nous solliciter pour vous établir un devis afin que nous puissions passer commande et vous faire livrer votre Maa.
+bikes:
+  - name: Maa Beach Cruiser
+    price: 3000 €
+    description: "Le Beach Cruiser est le choix parfait pour une balade sur les
+      sentiers forestiers. Selle large suspendue et guidon orienté vers le
+      cycliste : la position de conduite permet d'avoir le dos sans tension et
+      les épaules relachées afin de profiter d'une journée entière sur la selle
+      sans ressentir la moindre gêne. Avec sa batterie de 720 W, il vous offrira
+      sans problème une assistance en forêt sur 60 km dans la
+      journée !<br>Taille minimum requise : 1m71"
+    image: /src/assets/images/0-beach-web.jpg
+  - name: Maa Chili
+    price: 3200 €
+    description: "Le Maa Chili a les mêmes qualités que le Beach Cruiser, mais il
+      est mieux adapté aux utilisateurs moins grands ou moins souples. Au lieu
+      de proposer un cadre haut (cadre dit « masculin »), sa barre de cadre est
+      basse (cadre dit « féminin ») et convient mieux aux seniors ou à ceux qui
+      ont des jambes moins grandes que la moyenne. Une accessibilité accrue sans
+      renier ni sur le confort, ni sur l'autonomie en forêt.<br>Taille minimum
+      requise : 1m63"
+    image: /src/assets/images/0-chili-web.jpg
+  - name: Maa Piko
+    price: 3100 €
+    description: "Destiné aux pré-ados ou ados, mais pouvant être également utilisé
+      par des adultes, ce format 20 pouces de VTT fat bike dispose lui aussi
+      d'une selle large permettant d'avoir un minimum de confort en forêt pour
+      parcourir de longues promenades en forêt. Mais ne vous fiez pas à sa
+      petite taille, il est tout autant puissant et dispose de la même autonomie
+      que les grands modèles en 26 pouces !<br>Taille minimum requise : 1m38"
+    image: /src/assets/images/0-piko-web.jpg
